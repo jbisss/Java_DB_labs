@@ -4,8 +4,8 @@ package chickens02;
 public class Chickens02 {
     public static void main(String[] args) {
         //Put your code here
-        double countDays = 0;
-        double countEggs = 0;
+        int countDays = 0;
+        int countEggs = 0;
         // monday
         countDays++;
         countEggs+=100;
@@ -15,7 +15,7 @@ public class Chickens02 {
         // wednesday
         countDays++;
         countEggs+=117;
-        double dailyAverage = countEggs / countDays;
+        double dailyAverage = (double)(countEggs) / (double)(countDays);
         double monthlyAverage = dailyAverage * 30;
         double monthlyProfit = monthlyAverage * 0.18;
         System.out.println("Daily Average:   " + dailyAverage);
