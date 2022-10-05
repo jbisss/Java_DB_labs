@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImportDemo/ImportDemo.iml" filepath="$PROJECT_DIR$/ImportDemo/ImportDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImportEx/ImportEx.iml" filepath="$PROJECT_DIR$/ImportEx/ImportEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathDemo/MathDemo.iml" filepath="$PROJECT_DIR$/MathDemo/MathDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathEx/MathEx.iml" filepath="$PROJECT_DIR$/MathEx/MathEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_4/Practice_4.iml" filepath="$PROJECT_DIR$/Practice_4/Practice_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomEx/RandomEx.iml" filepath="$PROJECT_DIR$/RandomEx/RandomEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomNumsDemo/RandomNumsDemo.iml" filepath="$PROJECT_DIR$/RandomNumsDemo/RandomNumsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab_5.iml" filepath="$PROJECT_DIR$/.idea/lab_5.iml" />
+    </modules>
+  </component>
+</project>
