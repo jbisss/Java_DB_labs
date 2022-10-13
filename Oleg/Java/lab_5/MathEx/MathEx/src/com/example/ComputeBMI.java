@@ -13,9 +13,9 @@ public class ComputeBMI {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter weight:");
-        double weight = in.nextDouble();
+        double weight = in.nextDouble() * 2.2;
         System.out.println("Enter height:");
-        double height = in.nextDouble();
+        double height = in.nextDouble() * 39.37;
         double bmi = (weight/Math.pow(height, 2))*703;
         System.out.println("Your BMI is " + Math.round(bmi));
     }

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lab_6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ForLoopsEx.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ConditionalEx.zip!/" />
+      <root url="jar://$PROJECT_DIR$/SwitchDemo.zip!/" />
+      <root url="jar://$PROJECT_DIR$/SwitchEx.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

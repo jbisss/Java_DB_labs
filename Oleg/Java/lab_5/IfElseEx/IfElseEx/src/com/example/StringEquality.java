@@ -10,6 +10,7 @@ package com.example;
  * @author anshenoy
  */
 
+import java.util.Random;
 import java.util.Scanner;
 public class StringEquality {
     public static void main(String[] args) {
