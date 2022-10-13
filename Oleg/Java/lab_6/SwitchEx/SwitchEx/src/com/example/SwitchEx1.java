@@ -5,6 +5,9 @@
  */
 package com.example;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -57,6 +60,17 @@ public class SwitchEx1 {
                 break;
             default:
                 System.out.println("Incorrect month");
+            }
+            String[] arr = new String[]{"January", "February", "March",
+                    "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+            int[] arr_1 = new int[12];
+            for (int i = 12; i > 0; i--){
+                if(i % 2 == 0) {
+                    System.out.println(arr[i - 1]);
+                } else {
+                    System.out.println(i);
+                }
+            }
+
         }
-    }
 }
