@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lab_7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BreakContinueEx.zip!/" />
+      <root url="jar://$PROJECT_DIR$/WhileLoopExercise.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
