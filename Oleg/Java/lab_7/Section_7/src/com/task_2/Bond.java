@@ -18,14 +18,12 @@ public class Bond {
         monthRemaining = t;
     }
     public void earnInterest() {
-        if (monthRemaining > 0) {
+        while (monthRemaining > 0) {
             balance += balance*rate/12;
             monthRemaining--;
             System.out.println("Баланс: $" + this.balance);
             System.out.println("Ставка: " + this.rate);
             System.out.println("Остаток месяцев: " + this.monthRemaining);
-        } else {
-            System.out.println("Срок платежа облигации наступил");
         }
     }
 }

@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class PinCode {
     public static void main(String[] args) {
-        int pinCode = 1234;
-        int pinCodeToEnter = 0;
+        String pinCode = "1234";
+        String pinCodeToEnter = "";
         boolean flag = false;
         Scanner in = new Scanner(System.in);
         while (!flag) {
             System.out.println("Enter a pin-code:");
-            pinCodeToEnter = in.nextInt();
-            if(pinCodeToEnter == pinCode) {
+            pinCodeToEnter = in.next();
+            if(pinCodeToEnter.equals(pinCode)) {
                 flag = true;
                 System.out.println("You are allowed to your bank account!");
             }
