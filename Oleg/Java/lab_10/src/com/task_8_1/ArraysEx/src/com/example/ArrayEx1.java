@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class ArrayEx1 {
 
     public static void main(String args[]) {
-
         int[] score = new int[9];
         byte[] values = new byte[10];
         for (int i = 0; i < 10; i++){

@@ -1,7 +1,7 @@
 package com.practice_7;
 
-public class Terminal extends Main {
-    public PrizeCategory[] prizes = new PrizeCategory[3];
+public class Terminal {
+    public final PrizeCategory[] prizes = new PrizeCategory[3];
     public Terminal(){
         this.prizes[0] = new PrizeCategory("Teddy Bear", 3, 5);
         this.prizes[1] = new PrizeCategory("Toy M-16", 5, 1);

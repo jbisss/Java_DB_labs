@@ -1,6 +1,6 @@
 package com.practice_7;
 
-public class Card extends Terminal {
+public class Card {
     private final int ID;
     private int creditBalance;
     private int ticketBalance;

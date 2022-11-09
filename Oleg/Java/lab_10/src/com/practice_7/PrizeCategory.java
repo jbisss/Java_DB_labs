@@ -1,7 +1,7 @@
 package com.practice_7;
 
-public class PrizeCategory extends Terminal {
-    private final String NAME;
+public class PrizeCategory {
+    private String NAME;
     public final int TICKET_COST;
     private int prizeAmount;
     public PrizeCategory(String name, int ticketCost, int prizeAmount){

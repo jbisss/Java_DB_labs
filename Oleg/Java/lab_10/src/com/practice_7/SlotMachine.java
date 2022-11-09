@@ -2,7 +2,7 @@ package com.practice_7;
 
 import java.util.Random;
 
-public class SlotMachine extends Terminal {
+public class SlotMachine {
     private final String GAME_NAME;
     private final int GAME_COST;
 
