@@ -1,6 +1,6 @@
 package com.practice_7;
 
-public class PrizeCategory {
+public class PrizeCategory extends Terminal {
     private final String NAME;
     public final int TICKET_COST;
     private int prizeAmount;

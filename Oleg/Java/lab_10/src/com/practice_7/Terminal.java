@@ -1,6 +1,6 @@
 package com.practice_7;
 
-public class Terminal {
+public class Terminal extends Main {
     public PrizeCategory[] prizes = new PrizeCategory[3];
     public Terminal(){
         this.prizes[0] = new PrizeCategory("Teddy Bear", 3, 5);

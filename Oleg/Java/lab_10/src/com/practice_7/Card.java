@@ -1,19 +1,16 @@
 package com.practice_7;
 
-public class Card {
-    private int id = 0;
+public class Card extends Terminal {
+    private final int ID;
     private int creditBalance;
     private int ticketBalance;
     static private int countCards = 0;
 
     public Card(){
         countCards++;
-        this.id = countCards;
+        this.ID = countCards;
     }
 
-    public int getId() {
-        return id;
-    }
     public int getCreditBalance() {
         return creditBalance;
     }
@@ -21,9 +18,6 @@ public class Card {
         return ticketBalance;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
     public void setCreditBalance(int creditBalance) {
         this.creditBalance = creditBalance;
     }
@@ -33,7 +27,7 @@ public class Card {
 
     @Override
     public String toString(){
-        return "\n[Card ID: " + this.id + "; credit balance: " + this.creditBalance +
+        return "\n[Card ID: " + this.ID + "; credit balance: " + this.creditBalance +
                 "; ticket balance: " + this.ticketBalance + "]";
     }
 }
