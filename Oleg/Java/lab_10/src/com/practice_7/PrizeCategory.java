@@ -4,6 +4,11 @@ public class PrizeCategory {
     private String NAME;
     public final int TICKET_COST;
     private int prizeAmount;
+
+    public String getNAME() {
+        return NAME;
+    }
+
     public PrizeCategory(String name, int ticketCost, int prizeAmount){
         this.NAME = name;
         this.TICKET_COST = ticketCost;

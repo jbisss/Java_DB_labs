@@ -21,7 +21,7 @@ class Prisoner {
     private String name;
     private double height;
     private int yearSentenced;
-    private final Cell cell;
+    private Cell cell;
 
     public void setName(String name) {
         this.name = name;
@@ -43,14 +43,11 @@ class Prisoner {
         return yearSentenced;
     }
     public Prisoner() {
+        this("Ivan Ivanov", 2.0, 4);
         System.out.println("This is a constructor of class.");
         cell = new Cell("Beautiful cell", false, 1234);
-        this.name = null;
-        this.height = 0.0;
-        this.yearSentenced = 0;
     }
     public Prisoner(String name, double height, int yearSentenced) {
-        this();
         System.out.println("This is a constructor of class.");
         this.name = name;
         this.height = height;

@@ -27,7 +27,7 @@ public class Main {
         terminal.checkCardBalance(secondCard);
 
         // Переносим кредиты и билеты с первой карточки на вторую
-        terminal.transferCreditsAndTickets(firstCard, secondCard);
+        terminal.transferCreditsAndTickets(firstCard, secondCard, 500, 2);
 
         // Проверяем баланс
         System.out.println("\nAfter transfer: ");
