@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5b9ce3-9319-4501-942b-c84b4d04ca8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oleg/Java/lab_10/src/com/practice_7/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oleg/Java/lab_10/src/com/practice_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oleg/Java/lab_10/src/com/practice_7/PrizeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oleg/Java/lab_10/src/com/practice_7/SlotMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oleg/Java/lab_10/src/com/practice_7/Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Prog_java_projects/PolyJava/Oleg/Java/lab_10"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Prog_java_projects/PolyJava/Oleg&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="PolyJava" />
@@ -68,6 +64,8 @@
       <workItem from="1668003590811" duration="3572000" />
       <workItem from="1668009432578" duration="39000" />
       <workItem from="1668009487291" duration="35000" />
+      <workItem from="1668600444537" duration="19000" />
+      <workItem from="1668601095892" duration="22000" />
     </task>
     <servers />
   </component>
