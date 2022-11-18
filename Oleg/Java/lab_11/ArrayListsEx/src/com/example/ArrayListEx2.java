@@ -18,6 +18,7 @@ public class ArrayListEx2 {
         al.add(3);
         al.add(4);
         al.add(5);
+
         Iterator<Integer> i = al.iterator();
         while(i.hasNext()){
             System.out.println(i.next());
