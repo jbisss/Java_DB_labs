@@ -5,8 +5,8 @@ public class Team {
     private int countVictories = 0;
     private int countLoses = 0;
     private int countTies = 0;
-    private int countExtraMatches = 0;
-    private int countCreditedGoals = 0;
+    private int countTotalGames = 0;
+    private int countAllowedGoals = 0;
     private int countEntireGoals = 0;
 
     public Team(String name){
@@ -14,9 +14,9 @@ public class Team {
     }
 
     public void printStats(){
-        System.out.println("The name of team is: " + this.name + "\n\nVictories: " + this.countVictories + "\nLoses: "
-                + this.countLoses + "\nTies: " + this.countTies + "\nExtra matches: " + this.countExtraMatches + "\nCredited goals: "
-                + this.countCreditedGoals + "\nAll goals: " + this.countEntireGoals);
+        System.out.println("\nThe name of team is: " + this.name + "\nVictories: " + this.countVictories + "\nLoses: "
+                + this.countLoses + "\nTies: " + this.countTies + "\nTotal games amount: " + this.countTotalGames
+                + "\nGoals scored: " + this.countEntireGoals + "\nGoals allowed: " + this.countAllowedGoals + "\n");
     }
 
     public String getName() {
@@ -32,8 +32,14 @@ public class Team {
     public void incrementTies(){
         this.countTies++;
     }
+    public void incrementTotalGames(){
+        this.countTotalGames++;
+    }
 
     public void increaseGoals(int goalsAdd){
         this.countEntireGoals += goalsAdd;
+    }
+    public void increaseAllowedGoals(int goalsAdd){
+        this.countAllowedGoals += goalsAdd;
     }
 }
