@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3327182-9456-4003-bcf9-27c1c612455e" name="Changes" comment="[codedrop] report updated">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/.netbeans_automatic_build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/.netbeans_update_resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/com/example/BoundaryTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/com/example/BoundaryTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/com/example/ComputeTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/com/example/ComputeTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/com/example/MaxIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/com/example/MaxIntegers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/build/classes/com/example/MaxIntegersUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/build/classes/com/example/MaxIntegersUpdated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/manifest.mf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/private/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/private/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/nbproject/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/example/BoundaryTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/example/BoundaryTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/example/ComputeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/example/ComputeTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/example/MaxIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/example/MaxIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/example/MaxIntegersUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/example/MaxIntegersUpdated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/practice_8/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/practice_8/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/practice_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/practice_8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/practice_8/Planner.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/practice_8/Planner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DebuggingEx/src/com/practice_8/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/DebuggingEx/src/com/practice_8/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pozolotin_OV_12.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Pozolotin_OV_12.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/example/BoundaryTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/example/BoundaryTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/example/ComputeTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/example/ComputeTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/example/MaxIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/example/MaxIntegers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/example/MaxIntegersUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/example/MaxIntegersUpdated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/practice_8/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/practice_8/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/practice_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/practice_8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/practice_8/Planner.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/practice_8/Planner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_12/com/practice_8/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/part_1/out/production/lab_12/com/practice_8/Team.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab_12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_1/tasks/java/com/practice_8/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_1/tasks/java/com/practice_8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_1/tasks/java/com/practice_8/Planner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part_1/tasks/java/com/practice_8/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Prog_java_projects/PolyJava/Oleg/Java/lab_12&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PolyProjects/Oleg/Java/lab_12/part_1/tasks"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Prog_java_projects\PolyJava\Oleg\Java\lab_12\part_1" />
@@ -104,6 +78,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.practice_8.Main" />
       <module name="lab_12" />
       <extension name="coverage">
@@ -129,6 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BoundaryTesting" />
+      <item itemvalue="Application.ComputeTime" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MaxIntegers" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -151,6 +133,7 @@
       <workItem from="1669812259600" duration="10848000" />
       <workItem from="1669835273922" duration="606000" />
       <workItem from="1669839584899" duration="36000" />
+      <workItem from="1669880661021" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="first part oj lab_12">
       <created>1669225952019</created>
