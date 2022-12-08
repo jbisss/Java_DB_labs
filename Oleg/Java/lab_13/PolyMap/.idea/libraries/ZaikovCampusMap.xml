@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ZaikovCampusMap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ZaikovCampusMap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
