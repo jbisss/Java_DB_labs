@@ -1,6 +1,6 @@
 package animalShopExtended;
 
-public class Dog extends Animal{
+public class Dog extends NewSuper{
     private String name;
     private String barkNoise = "Woof";
     private double weight;

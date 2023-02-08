@@ -17,5 +17,8 @@ public class AnimalTester {
         System.out.println("Fish breed: " + fish.getBreed());
         System.out.println("Water type: " + fish.getWaterType());
         System.out.println("Fish colour: " + fish.getColour());
+
+        int a = 8 & 16;
+        System.out.println(a);
     }
 }
