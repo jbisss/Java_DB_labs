@@ -1,4 +1,4 @@
-package examples.mypack;
+package examples_lab_1.mypack;
 
 import static javax.swing.JOptionPane.*;
 class UsingPackageDemo{

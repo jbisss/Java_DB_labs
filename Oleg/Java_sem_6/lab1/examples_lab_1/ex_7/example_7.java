@@ -1,4 +1,4 @@
-package examples.ex_7;
+package examples_lab_1.ex_7;
 
 class Alpha{
     String name;

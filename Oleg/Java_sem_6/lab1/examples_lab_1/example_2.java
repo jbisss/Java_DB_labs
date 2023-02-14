@@ -1,4 +1,4 @@
-package examples;
+package examples_lab_1;
 
 class Alpha{
     String name;

@@ -1,4 +1,4 @@
-package examples.ex_10;
+package examples_lab_1.ex_10;
 
 class MyClass{
     String name;

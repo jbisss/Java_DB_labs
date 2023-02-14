@@ -1,4 +1,4 @@
-package examples;
+package examples_lab_1;
 
 class Alpha_1 {
     private int code;

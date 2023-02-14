@@ -1,4 +1,4 @@
-package examples.ex_9;
+package examples_lab_1.ex_9;
 
 class Alpha{
     void show(){

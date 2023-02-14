@@ -1,4 +1,4 @@
-package examples.ex_8;
+package examples_lab_1.ex_8;
 
 
 class Alpha{

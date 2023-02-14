@@ -1,4 +1,4 @@
-package examples;
+package examples_lab_1;
 
 import javax.swing.*;
 class MyPane extends JOptionPane{
