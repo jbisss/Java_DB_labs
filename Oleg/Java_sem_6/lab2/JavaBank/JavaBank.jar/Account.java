@@ -1,6 +1,6 @@
 package JavaBank.JavaBank.jar;
 
-public class Account {
+public class Account extends AbstractBankAccount{
 
 	// class variables
 		String accountname;
@@ -32,7 +32,18 @@ public class Account {
 	    {
 	    	    balance=balance-amt;
 	    }
-	    //modifier to set the accountname
+
+	@Override
+	public int getBalance() {
+		return this.balance;
+	}
+
+	@Override
+	public String getBankName() {
+		return this.BANK;
+	}
+
+	//modifier to set the accountname
 	    public void setaccountname(String name)
 	    {
 	    	    accountname = name;
@@ -66,6 +77,6 @@ public class Account {
 	    
 	    //print method 
 	    public void print() {
-	        System.out.println(accountname + " " + accountnum + " " + balance);
+	        System.out.println(getBankName()+accountname + " " + accountnum + " " + balance);
 	      }
 	}

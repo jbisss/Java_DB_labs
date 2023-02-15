@@ -2,11 +2,14 @@ package JavaBank.JavaBank.jar;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.border.*;
 
  
 public class JavaBank extends JFrame {
+    CompanyColor companyColor = new CompanyColor();
+    Color color = new Color(companyColor.getR(), companyColor.getG(), companyColor.getB());
  
     /**
 	 * 
@@ -69,8 +72,12 @@ public class JavaBank extends JFrame {
     // two-dimensional array to store Account details
 
     static Account myAccounts[]  = new Account[MaxAccounts];
+    static ArrayList<Account> mmAccs = new ArrayList<>();
     
-    static int noAccounts = 0; 
+    static int noAccounts = 0;
+    public void print(){
+        System.out.println();
+    }
  
     // constructor
     
@@ -88,6 +95,7 @@ public class JavaBank extends JFrame {
     private void createUserInterface() {
         // get content pane for attaching GUI components
         Container contentPane = getContentPane();
+        contentPane.setBackground(color);
  
         // enable explicit positioning of GUI components
         contentPane.setLayout(null);
@@ -297,13 +305,15 @@ public class JavaBank extends JFrame {
         //int emptyAccount = 11;
        
     	
-        	if ((noAccounts <= 9) & (Name != "") & (Accountnum != 0))  {        		
+        	if ((noAccounts <= 9) & (Name != "") & (Accountnum != 0))  {
+                mmAccs.add(noAccounts, new Account(Name,Accountnum,Balance));
         		myAccounts[noAccounts] = new Account(Name,Accountnum,Balance);        		
         		AccountNames[noAccounts] = "USED";        		
         		//System.out.println(myAccounts[noAccounts].getaccountname());
         		//emptyAccount = i;         		
-        		
-        		displayJTextArea.setText(myAccounts[noAccounts].getaccountname() + " " + myAccounts[noAccounts].getaccountnum() + " " + myAccounts[noAccounts].getbalance());
+                displayJTextArea.setText(myAccounts[noAccounts].getaccountname() + " " + myAccounts[noAccounts].getaccountnum() + " " + myAccounts[noAccounts].getbalance());
+
+                displayJTextArea.setText(myAccounts[noAccounts].getaccountname() + " " + myAccounts[noAccounts].getaccountnum() + " " + myAccounts[noAccounts].getbalance());
         		noAccounts ++;
         		System.out.println(noAccounts);        		
         	}

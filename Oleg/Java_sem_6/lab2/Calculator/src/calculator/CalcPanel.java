@@ -1,4 +1,4 @@
-package calculator;
+package Calculator.src.calculator;
 
 import javax.swing.*;
 import java.awt.Color;
@@ -25,6 +25,8 @@ public class CalcPanel extends JPanel implements ActionListener {
 	JButton bclear;
 	JButton bequals;
 	JButton bplus;
+	JButton bminus;
+	JButton bmultiply;
 	
 	public CalcPanel()
 	{
@@ -46,6 +48,8 @@ public class CalcPanel extends JPanel implements ActionListener {
 		bclear=new JButton("C");
 		bequals = new JButton( "=");
 		bplus=new JButton("+");
+		bminus=new JButton("-");
+		bmultiply=new JButton("*");
 
 		display.setBounds(0,0,205,50);
 		
@@ -66,8 +70,9 @@ public class CalcPanel extends JPanel implements ActionListener {
 		bdec.setBounds(50,250,50,50);
 		bclear.setBounds(100,250,50,50);
 		bequals.setBounds(154,250,50,50);
-			
-		
+		bminus.setBounds(154,100,50,50);
+		bmultiply.setBounds(154,150,50,50);
+
 		add(b1);
 		add(b2);
 		add(b3);
@@ -83,6 +88,8 @@ public class CalcPanel extends JPanel implements ActionListener {
 		add(bclear);
 		add(bequals);
 		add(bplus);
+		add(bminus);
+		add(bmultiply);
 
 		b1.addActionListener(this);
 		b2.addActionListener(this);
@@ -98,7 +105,8 @@ public class CalcPanel extends JPanel implements ActionListener {
 		bplus.addActionListener(this);
 		bclear.addActionListener(this);
 		bdec.addActionListener(this);
-		
+		bmultiply.addActionListener(this);
+		bminus.addActionListener(this);
 	}
 	public void actionPerformed(ActionEvent e){
 		String s=e.getActionCommand();
@@ -123,14 +131,33 @@ public class CalcPanel extends JPanel implements ActionListener {
 			usingFirst=false;
 			operator="+";
 		}
+		if(s.equals("-"))
+		{
+			usingFirst=false;
+			operator="-";
+		}
+		if(s.equals("*"))
+		{
+			usingFirst=false;
+			operator="*";
+		}
 		if(s.equals("="))
 		{
 			
 			switch(operator){
-			case "+":
-				total=Double.parseDouble(num1)+Double.parseDouble(num2);
-				display.setText( ""+total );
-				break;
+				case "+":
+					total=Double.parseDouble(num1)+Double.parseDouble(num2);
+					display.setText( ""+total );
+					break;
+
+				case "-":
+					total=Double.parseDouble(num1)-Double.parseDouble(num2);
+					display.setText( ""+total );
+					break;
+				case "*":
+					total=Double.parseDouble(num1)*Double.parseDouble(num2);
+					display.setText( ""+total );
+					break;
 			}
 			
 		
