@@ -35,9 +35,7 @@ public class CreditAccount extends AbstractBankAccount{
 
 	@Override
 	public String toString(){
-		return super.toString()+
-				"\nCredit Limit : "+creditLimit;
-
+		return super.toString();
 	}
 
 	private static int calculateCreditLimit(int amt){

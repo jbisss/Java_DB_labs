@@ -71,6 +71,4 @@ public class Account extends AbstractBankAccount{
 				return 30;
 			}
 		}
-
-
 	}

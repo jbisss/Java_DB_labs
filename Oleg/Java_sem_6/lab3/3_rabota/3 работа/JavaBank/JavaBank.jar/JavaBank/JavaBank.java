@@ -296,14 +296,11 @@ public class JavaBank extends JFrame {
             } else {
                 Balance = Integer.parseInt(BalanceJTextField.getText());
             }
-        }catch (NumberFormatException | InputMismatchException exception){
-            Name="";
-            JOptionPane.showMessageDialog(null, "Incorrect value");
         }
         catch(Exception e){
             MyException newExc = new MyException("An unhandled error occurred!!!");
             JOptionPane.showMessageDialog(null, newExc);
-        }//
+        }
         finally {
             NameJTextField.setText(" ");
             AccountnumJTextField.setText("0");
