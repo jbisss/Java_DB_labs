@@ -1,6 +1,8 @@
 package JavaBank;
 
-public class CreditAccount extends AbstractBankAccount{
+import JavaBankOld.AbstractBankAccount;
+
+public class CreditAccount extends AbstractBankAccount {
 
 	int creditLimit;
 	

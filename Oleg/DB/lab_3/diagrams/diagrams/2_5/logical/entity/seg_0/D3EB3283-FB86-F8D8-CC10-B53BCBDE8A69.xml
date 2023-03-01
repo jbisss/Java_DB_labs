@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3EB3283-FB86-F8D8-CC10-B53BCBDE8A69" name="Faculty">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:24 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="7BB1F48A-834A-1940-C85D-B8E5F392D850">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:32 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0979086D-7882-1B15-5651-EDDC08D2078C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:45 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="B1966C68-DEA1-C78E-28AD-1502DC00E9F2">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:49 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login Date" id="C7CF37D2-B358-7544-F42C-6BD234E71A6D">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:53 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login Time" id="0CA585B4-9D85-B5BE-C412-CA263ED34EFD">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:51:06 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Details" id="D9D8F2E7-6342-B2D1-86DF-DD729B0DEDBF">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:51:10 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E14D431-898A-F8B2-776B-D937EFAA1974" name="Faculty PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:50:44 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BB1F48A-834A-1940-C85D-B8E5F392D850</attributeRef>
+<attributeRef>C7CF37D2-B358-7544-F42C-6BD234E71A6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

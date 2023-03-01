@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Сдача экзамена" directorySegmentName="seg_0" id="CC439B34-5886-5A32-7BC7-C7E30A0F9048">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:53:34 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Сдает</nameOnSource>
+<nameOnTarget>Сдается</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8E71CD58-CBDF-FAD3-FADE-D24C07553D60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F815CBA8-82EB-D146-9460-392F85537192</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

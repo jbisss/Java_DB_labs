@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F97366B-D75D-A633-7632-495E4A8CCB05" name="Team">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:08:16 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1D019C37-47B7-12D3-C9F2-911F1A0EE518">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:21:00 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="8B0F3453-F8B6-0380-6018-0C8C6927DABD">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:08:24 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of players" id="FA099165-9D0C-B5BA-4AA6-A2E08C2345E3">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:08:39 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="54F964A2-6D7F-2EB3-5B82-786E1776C00C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:08:49 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67178CA7-9FA0-4DFD-1D79-4300650D828D" name="Team PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:08:37 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D019C37-47B7-12D3-C9F2-911F1A0EE518</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

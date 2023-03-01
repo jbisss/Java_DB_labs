@@ -1,6 +1,8 @@
 package JavaBank;
 
-public class Account extends AbstractBankAccount{
+import JavaBankOld.AbstractBankAccount;
+
+public class Account extends AbstractBankAccount {
 
 	private int bonusValue;
 	    public Account(String name, int num,int amt)

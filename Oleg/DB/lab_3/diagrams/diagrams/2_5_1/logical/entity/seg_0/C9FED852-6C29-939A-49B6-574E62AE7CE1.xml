@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9FED852-6C29-939A-49B6-574E62AE7CE1" name="Inventory list">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:49:57 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="35666CB9-7D41-DB77-B9B0-EFE0BF13935B">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:50:13 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost of the unit" id="1B399637-11FB-F384-8F9E-07F43E515078">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:50:17 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Units on hand" id="5771F08A-3491-14C0-D342-4A45F6E0B206">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:50:23 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02AF5901-4B41-D96A-E648-F39BDB33E325" name="Inventory list PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:50:15 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35666CB9-7D41-DB77-B9B0-EFE0BF13935B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

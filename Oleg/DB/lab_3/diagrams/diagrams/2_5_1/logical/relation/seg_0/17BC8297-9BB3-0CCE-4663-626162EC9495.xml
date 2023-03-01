@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="representatives work" directorySegmentName="seg_0" id="17BC8297-9BB3-0CCE-4663-626162EC9495">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:42:45 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<sourcePk>F0C95014-B243-8EF0-68B1-2C629634EE2C</sourcePk>
+<targetPk>5BBFFAC6-C859-9BA8-5A5A-043A1D281923</targetPk>
+<identifying>false</identifying>
+<nameOnSource>принадлежит</nameOnSource>
+<nameOnTarget>работает с</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5973EFEC-D350-5C2E-BE5C-E7D83A0C3230</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D415FDE-8107-A5BB-341D-76807D9392CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

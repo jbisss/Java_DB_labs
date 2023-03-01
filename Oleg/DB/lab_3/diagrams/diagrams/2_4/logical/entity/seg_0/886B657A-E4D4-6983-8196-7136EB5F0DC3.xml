@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="886B657A-E4D4-6983-8196-7136EB5F0DC3" name="Department">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:27 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Department ID" id="4D526E79-3C6C-9253-73CC-0D562946A60F">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:36 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="3B8FA9CF-49C4-4420-2AA7-7D9BA7A6E566">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:46 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0455DC96-3A34-898A-2883-1DEC4FC3CDBF">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:52 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="4AAD4F7B-7F2A-2FFD-667C-0A2B14169B77">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:57 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FADB453-7473-7409-D0DD-A96EB5780603" name="Department PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:35:45 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D526E79-3C6C-9253-73CC-0D562946A60F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

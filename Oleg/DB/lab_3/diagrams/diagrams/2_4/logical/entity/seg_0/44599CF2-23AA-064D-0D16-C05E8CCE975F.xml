@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44599CF2-23AA-064D-0D16-C05E8CCE975F" name="Parent Information">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:41 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Parent ID" id="F544FFBA-A15D-48E0-69C3-863354CC8A08">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:06 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student ID" id="2746707B-4E58-6BFE-E564-C324CD4D04C9">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:55 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A6E56165-83CD-6248-824E-878AAECA1A53">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:11 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="8648004D-3282-14A0-657A-72387A8AAC29">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:17 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="3E5710DE-E3D3-CB19-95D4-62D8B9C6D77B">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:22 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="FD32486D-FC29-004A-6BF6-96EE6D9633AA">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:26 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="416ACD3A-1696-5EFF-6B36-067E0892B963" name="Parent Information PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:40:49 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F544FFBA-A15D-48E0-69C3-863354CC8A08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

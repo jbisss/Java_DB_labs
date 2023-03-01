@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBA5C5F2-5DDF-5059-1A14-8873F3B25161" name="Order">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2C4A1984-151D-B7C9-EB6F-8EA1D7068A83">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="697612BE-E019-6703-8B33-5F83712B578B">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Items purchased" id="02A22343-457E-E19E-1729-66FE8C9F073E">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="FAECE2B7-3C7A-AE84-E5D7-BA9433AE9520">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item size" id="86744B6D-6E98-D851-A227-5A5AEDA40BEE">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="4E3EC5C9-D374-0B3D-2321-719ACE857380">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total price" id="9AB945C3-3FD5-1B59-F582-446267060082">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="163CAE7D-F283-794E-ADC1-87542F2A36B6" name="Customer PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:45:49 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C4A1984-151D-B7C9-EB6F-8EA1D7068A83</attributeRef>
+<attributeRef>697612BE-E019-6703-8B33-5F83712B578B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

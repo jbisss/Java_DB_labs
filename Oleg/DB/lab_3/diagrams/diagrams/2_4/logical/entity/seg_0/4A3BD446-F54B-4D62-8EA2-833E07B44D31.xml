@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A3BD446-F54B-4D62-8EA2-833E07B44D31" name="Student">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:37:29 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student ID" id="823E96E7-2E74-AC3E-9FFD-8C6DD395771C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:37:43 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="66940FE1-3465-7A03-018E-3334DB124A91">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:37:52 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="57BD2DC4-23D7-A0D7-3113-8E1539436528">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:01 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="B40AA217-F792-5310-1240-1B3A987B6BD5">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:08 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="A26E4098-C63F-068D-CDFB-7060F3B5B9D2">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:13 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course ID" id="C837AF2B-4CDD-A7C9-667E-FC6DF7AAE76C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:20 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attendance" id="E0E795C4-B850-296E-7B88-6A507996BA4A">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:29 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AC6AD09-AC73-EA4F-71C8-44DAB16E234A" name="Student PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:37:51 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>823E96E7-2E74-AC3E-9FFD-8C6DD395771C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

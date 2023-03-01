@@ -1,6 +1,6 @@
 package JavaBank.JavaBank.jar;
 
-import JavaBank.JavaBank.jar.Account;
+import JavaBank.jar.Account;
 
 import java.awt.*;
 import java.awt.event.*;

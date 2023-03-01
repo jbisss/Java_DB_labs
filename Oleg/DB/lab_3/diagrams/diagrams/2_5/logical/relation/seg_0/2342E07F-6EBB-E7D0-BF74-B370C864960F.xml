@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Посещаемость" directorySegmentName="seg_0" id="2342E07F-6EBB-E7D0-BF74-B370C864960F">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:43:45 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>получает информацию об успехах</nameOnSource>
+<nameOnTarget>отчетность</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7B6E2269-40B6-91F3-368B-67DFC3C8A675</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E71CD58-CBDF-FAD3-FADE-D24C07553D60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

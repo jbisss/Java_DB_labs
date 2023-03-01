@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Проведение экзаменов" directorySegmentName="seg_0" id="FEBA11FF-633F-E531-EFE3-7D881345877C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:53:56 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<sourcePk>69FE967A-0D1D-2DAD-FBA0-8C77F531BFA2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>включает</nameOnSource>
+<nameOnTarget>входит в состав</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A474046B-ED61-D249-86C2-9C85C223F208</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F815CBA8-82EB-D146-9460-392F85537192</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

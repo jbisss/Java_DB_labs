@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="состав команды" directorySegmentName="seg_0" id="B0D3B5B0-FBB7-C778-7D1D-7FD27A381C8E">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:40:38 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<sourcePk>CDE9B1B9-FFB0-0BEC-A343-4EA3D0ED36C4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>включает</nameOnSource>
+<nameOnTarget>входит в состав</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B33C9A81-DC48-F7EE-D7FF-C89433885DE4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0D415FDE-8107-A5BB-341D-76807D9392CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

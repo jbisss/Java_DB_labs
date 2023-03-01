@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D415FDE-8107-A5BB-341D-76807D9392CA" name="Customer">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:34:52 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E3914C2B-1DA3-0F27-CCF1-AC0F4C2B7553">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:34:58 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="38660373-613D-7351-82EA-ECF51EA7E25C">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:02 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="E25895C3-17F4-9C44-2ADF-06FC4529E683">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:09 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone number" id="5D2F50FF-AB2E-EF6B-B071-CC0CEDF2C7CD">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:17 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="7F1572DB-28E7-6371-FA7C-306DB8EF547A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:33 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Balance" id="9054FA6C-2D95-BF49-7110-E3C210438E2B">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:41 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team" id="07B42C73-3806-A980-6776-53BD251857C8">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:51 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="B97A6CA4-D052-132A-1006-4F916F8D2D99">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:40:38 UTC</createdTime>
+<generatorID>B0D3B5B0-FBB7-C778-7D1D-7FD27A381C8E</generatorID>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<referedAttribute>2EA44CBB-0F69-72E6-A526-AAE493B5FCE9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="556C06EA-95AC-5B95-6DBD-C19390F50450">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:44:46 UTC</createdTime>
+<generatorID>17BC8297-9BB3-0CCE-4663-626162EC9495</generatorID>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE7627FE-B248-CFE6-2892-79466216B237</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email1" id="F9A9DA20-75FD-9174-D5A1-BDC18A37AE13">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:44:46 UTC</createdTime>
+<generatorID>17BC8297-9BB3-0CCE-4663-626162EC9495</generatorID>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4DBAE8BD-EEA1-9EF4-E2A0-4EB8774F2472</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="91E2FECE-D398-CC27-A7FB-3C72FC23D3EF">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:47:51 UTC</createdTime>
+<generatorID>FA099A05-7021-323E-88E8-96B384D3DD5B</generatorID>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<referedAttribute>2C4A1984-151D-B7C9-EB6F-8EA1D7068A83</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="9243272E-35AC-3D4D-F68B-928595878AB6">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:47:51 UTC</createdTime>
+<generatorID>FA099A05-7021-323E-88E8-96B384D3DD5B</generatorID>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<referedAttribute>697612BE-E019-6703-8B33-5F83712B578B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BBFFAC6-C859-9BA8-5A5A-043A1D281923" name="Customer PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-20 00:35:01 UTC</createdTime>
+<ownerDesignName>2_5_1</ownerDesignName>
+<engineerTo>
+<item key="BD4453FA-B719-1B79-2094-2E0DEA1693F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3914C2B-1DA3-0F27-CCF1-AC0F4C2B7553</attributeRef>
+<attributeRef>38660373-613D-7351-82EA-ECF51EA7E25C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

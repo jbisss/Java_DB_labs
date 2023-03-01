@@ -1,5 +1,7 @@
 package JavaBank;
 
+import JavaBankOld.Account;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -62,7 +64,7 @@ public class JavaBankList extends JFrame {
 	 
 	    
 	    //  array to store Account details and an Arraylist
-	    ArrayList<Account> Accounts = new ArrayList<Account>();
+	    ArrayList<JavaBankOld.Account> Accounts = new ArrayList<JavaBankOld.Account>();
 	    
 	    
 	    //static int noAccounts = 0; 
@@ -287,9 +289,9 @@ public class JavaBankList extends JFrame {
 	            
 	    	if ((Name != "") & (Accountnum != 0))  {
 	        	    //add a new account to the list using the Account constructor
-	        		Accounts.add(new Account(Name,Accountnum,Balance));
+	        		Accounts.add(new JavaBankOld.Account(Name,Accountnum,Balance));
 	        		//Set a temp Account for display purposes
-	        		Account tempAccount = (Account)Accounts.get(Accounts.size()-1);
+	        		JavaBankOld.Account tempAccount = (JavaBankOld.Account)Accounts.get(Accounts.size()-1);
 	        		//Display tempAccount
 	        		displayJTextArea.setText(Accounts.size() + " " + tempAccount.getaccountname() + " " + tempAccount.getaccountnum() + " " + tempAccount.getbalance());
 	        		       		    		
@@ -345,7 +347,7 @@ public class JavaBankList extends JFrame {
 	            for ( int i = 0; i < Accounts.size(); i++ )
 	            {
 	            // get the element and set to TempAccount
-	                Account tempAccount = (Account)Accounts.get(i);    
+	                JavaBankOld.Account tempAccount = (JavaBankOld.Account)Accounts.get(i);
 	                // if account number matches and deposit field has entry then deposit in account
 	                if ((tempAccount.accountNum == Accountnum) && (Deposit>0)) {
 	        		    tempAccount.setbalance(tempAccount.getbalance()+Deposit);
@@ -383,7 +385,7 @@ public class JavaBankList extends JFrame {
 	    		displayJTextArea.setText("No Accounts currently created");
 	    	}else {
 	    	for (int i=0; i < Accounts.size(); i++) { 
-	    		    Account tempAccount = (Account)Accounts.get(i);
+	    		    JavaBankOld.Account tempAccount = (Account)Accounts.get(i);
 	    		    displayJTextArea.append(tempAccount.getaccountname() + " " + tempAccount.getaccountnum() + " " + tempAccount.getbalance()  + "\n");
 	    		    
 	    			       
@@ -405,7 +407,7 @@ public class JavaBankList extends JFrame {
 	        // Populate arrays with the word EMPTY
 	        // so we can check to see if the values are empty later
 	    	    	 
-	        JavaBankList application = new JavaBankList();
+	        JavaBankOld.JavaBankList application = new JavaBankOld.JavaBankList();
 	        application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    }
 	 

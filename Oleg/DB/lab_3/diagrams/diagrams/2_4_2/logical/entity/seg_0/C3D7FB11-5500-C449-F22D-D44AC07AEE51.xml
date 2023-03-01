@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3D7FB11-5500-C449-F22D-D44AC07AEE51" name="Sales Representative">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:02 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D32076FE-324F-463D-93EE-B5A6982F1E49">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-08 11:21:24 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="EEE17738-EAAC-989F-3C30-18081ACE072B">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:41 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A45BAA3B-60CF-A9D5-ADAC-151D294ADFE1">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:18 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="9EABF6AD-5FB0-B936-6DF8-B9B27C4FE22B">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:24 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="8339D28E-C519-C3BD-860E-B27547234854">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:30 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rating" id="8B7E3205-665C-BAF4-38E4-822D1AAC5D09">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:48 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F182A2D-0009-442B-246A-280FC4D80E7F" name="Sales Representative PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:09:23 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D32076FE-324F-463D-93EE-B5A6982F1E49</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4DAD47D6-A928-692E-B5EC-8D57FE790BBC" name="Key_2">
+<createdBy>pozol</createdBy>
+<createdTime>2023-02-27 09:52:58 UTC</createdTime>
+<ownerDesignName>2_4_2</ownerDesignName>
+<engineerTo>
+<item key="20661B13-8D13-E73A-A8B0-4546AF51554D" value="true"/>
+</engineerTo>
+<newElementsIDs>EEE17738-EAAC-989F-3C30-18081ACE072B</newElementsIDs>
+<usedAttributes>
+<attributeRef>EEE17738-EAAC-989F-3C30-18081ACE072B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

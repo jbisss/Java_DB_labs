@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relationship" directorySegmentName="seg_0" id="5CCB419D-5F5A-1112-7A32-D32A921BFD04">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:52:10 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>получает</nameOnSource>
+<nameOnTarget>передает</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F0A0AD06-F487-136C-96CC-B048C695E392</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E71CD58-CBDF-FAD3-FADE-D24C07553D60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Attribute_1" id="66CDC2C8-5A15-2F84-5901-5C4DB3F242D3">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:52:49 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

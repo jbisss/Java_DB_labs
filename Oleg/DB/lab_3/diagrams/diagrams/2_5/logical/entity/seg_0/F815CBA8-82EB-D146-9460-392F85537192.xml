@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F815CBA8-82EB-D146-9460-392F85537192" name="Exam">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:03 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="42C61746-AEF5-CF04-04AB-D323C210643C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:09 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="DBE15B61-4821-AF0F-D9BD-922995454A93">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:15 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Date" id="D51CC59C-0D1A-DEBF-1035-A1EC15E5E701">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:28 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A6674345-8F8E-6A8C-DD30-C7774477664C">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:42 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="60E5BC86-B0FB-937C-8BF4-E076723DCC18">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:46 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C1587306-E621-23CB-1613-467C1712C2A9">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:54:14 UTC</createdTime>
+<generatorID>FEBA11FF-633F-E531-EFE3-7D881345877C</generatorID>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<referedAttribute>B1EE7ADF-98EB-3C4D-59F2-0361ED0A598B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE54D28E-BACD-A6BF-8B62-55ED67E2FFC5" name="Exam PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-02 21:49:15 UTC</createdTime>
+<ownerDesignName>2_5</ownerDesignName>
+<engineerTo>
+<item key="6E5DC98E-403E-986F-5F3F-963B9FF9C3E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42C61746-AEF5-CF04-04AB-D323C210643C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

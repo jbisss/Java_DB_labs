@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0F97366B-D75D-A633-7632-495E4A8CCB05" name="Team" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="630A5B28-70C3-173B-DA80-9217509732F3" name="Order" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8D074DBD-29A1-9CAC-2634-E57785392B9C" name="INVENTORY LIST" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C3D7FB11-5500-C449-F22D-D44AC07AEE51" name="Sales Representative" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C4EBA8CF-30E3-83B0-9975-7D094A0DB16B" name="Item" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EFF9C1BD-1ED7-FAE0-7F88-1417B79D8C10" name="Customer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="42293E79-091E-888F-386F-A194819D4AE9" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F783512A-60F4-E137-E690-A2B026ADFF93" name="Exam">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:38:51 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Exam ID" id="BF8F0DC2-16EE-2133-09EC-D21A858BD9B6">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:01 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student ID" id="85BC0939-7E92-741A-DAEA-B696A6B08C82">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:08 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course ID" id="54F73FCC-E4A3-9D90-D875-5117DCEB9355">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:17 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExamName" id="DA523C8C-5A8E-DA3F-B021-FDDFDE567D69">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:22 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2830332-7BCE-2AD4-0857-4E1D56C55078" name="Exam PK">
+<createdBy>rusza</createdBy>
+<createdTime>2022-03-07 21:39:08 UTC</createdTime>
+<ownerDesignName>2_4</ownerDesignName>
+<engineerTo>
+<item key="FDA39E50-AAF3-FC03-407F-9F247BBD75C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF8F0DC2-16EE-2133-09EC-D21A858BD9B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
