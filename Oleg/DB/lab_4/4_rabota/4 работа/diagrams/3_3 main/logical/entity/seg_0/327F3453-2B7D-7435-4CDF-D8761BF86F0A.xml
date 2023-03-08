@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="327F3453-2B7D-7435-4CDF-D8761BF86F0A" name="Faculty">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:19 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="64496322-506B-0F29-2F15-981B81D82FD8">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:25 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="7D162AB7-9BC9-64C6-A6AF-F52A76369E0A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:28 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="7C612BD7-2F8D-7020-FA3F-341E6E89501E">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:42 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="D145CBF0-BBA3-B018-7EFF-DF010E51C595">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:59 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login date" id="6BD0819C-DAD6-280D-2DEF-7F03A9D2511A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:27:04 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login time" id="111B1C19-823B-268E-B23F-DD6EF5809E94">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:27:10 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Details" id="95BF8706-C5EE-80EA-AB2C-E8E878AFEA9A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:27:19 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="589ACEED-8797-823E-E129-72887DA7E1EA" name="Faculty PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:26:28 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64496322-506B-0F29-2F15-981B81D82FD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

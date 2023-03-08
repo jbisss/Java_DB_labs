@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3D64FB1-0488-38FC-D4AC-5B5BB6719317" name="Sales Areas">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:52:08 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sales-Area Code" id="82EABCF5-9465-2115-1774-ECFFA82F5DC7">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:52:22 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="3CE1E0E5-10BC-76E4-A0C8-4A39D16B5D66">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:53:27 UTC</createdTime>
+<generatorID>DDB840D8-E751-4BA1-99DF-F1781F0E0DE8</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>22C4B147-7D1A-A5FB-0D36-8B1DCB2C106E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Territory Code" id="73C43021-EB2E-BFAE-DD82-57A2C9A0205E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:54:19 UTC</createdTime>
+<generatorID>461E3520-ADEE-6AE0-1A46-DCB9FF6064F4</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>3B153634-75CA-6E9B-60A3-FDB090029AF2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADE0D285-F1DE-EDA6-7564-5E08A5F5A54F" name="Sales Areas PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:52:57 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82EABCF5-9465-2115-1774-ECFFA82F5DC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F92F3E9D-233E-0940-173B-FE9328B5F5B6" name="Sales District">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:42:49 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="District Code" id="6C233D51-41AA-3C16-1D81-483433680814">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:42:58 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region Code" id="92A33F5E-D486-1F34-04AE-E9BDA96B4566">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:44:10 UTC</createdTime>
+<generatorID>E57AAFA3-A2B2-FFCB-C5F3-15FB8C19F3D2</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>9CB97371-F64F-D026-FEA8-8DDBF68C4ED2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="B3E3D6C6-CCEC-0335-A814-A73A65C7589D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:47:28 UTC</createdTime>
+<generatorID>1835670C-DF35-7697-BF76-9B0951BB6844</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>850A420D-0368-A58E-5D22-9A08DDB2DB5B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E5BE70E-86D6-F171-7C07-8D5381CDF7A8" name="Sales District PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:43:04 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C233D51-41AA-3C16-1D81-483433680814</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

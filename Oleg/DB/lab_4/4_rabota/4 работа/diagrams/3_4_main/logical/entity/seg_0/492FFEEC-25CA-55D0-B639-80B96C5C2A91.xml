@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="492FFEEC-25CA-55D0-B639-80B96C5C2A91" name="Online">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:44:45 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LogOn ID" id="154C635E-C2D2-89D9-D097-03EC8C4BA351">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:44:52 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="004BCDD3-F9C2-EC26-8546-24DCB9F9DF61">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:45:05 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

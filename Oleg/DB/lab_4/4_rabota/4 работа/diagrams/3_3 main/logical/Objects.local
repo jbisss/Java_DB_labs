@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="327F3453-2B7D-7435-4CDF-D8761BF86F0A" name="Faculty" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B9BAB7B5-0F11-1574-43E3-5ABA17B50CC1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="26B8409B-9481-C942-D837-9AFCB70D9888" name="Full Time" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B9BAB7B5-0F11-1574-43E3-5ABA17B50CC1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5546D811-6C44-7314-9BD8-2DD66A9F1E06" name="Part Time" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B9BAB7B5-0F11-1574-43E3-5ABA17B50CC1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Hierarchy relation" objectID="BD5867BC-40F6-C93B-7152-CA4712697892" name="Hierarchy_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.InheritanceRelation" propertyParentId="B9BAB7B5-0F11-1574-43E3-5ABA17B50CC1" propertySourceId="327F3453-2B7D-7435-4CDF-D8761BF86F0A" propertyTargetId="5546D811-6C44-7314-9BD8-2DD66A9F1E06"/>
+   <object objectType="Hierarchy relation" objectID="E96759F3-58F8-4BE2-E8E0-8B57A66A2462" name="Hierarchy_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.InheritanceRelation" propertyParentId="B9BAB7B5-0F11-1574-43E3-5ABA17B50CC1" propertySourceId="327F3453-2B7D-7435-4CDF-D8761BF86F0A" propertyTargetId="26B8409B-9481-C942-D837-9AFCB70D9888"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11BCDA1A-25F5-807E-E90F-04D0D080F94B" name="Seated">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:37 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Building Name" id="03603188-3E14-4986-530A-BAEFD29F73D4">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:46 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room Number" id="669AB725-2A09-CFF2-0D98-5FCDF92CFFB0">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:57 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="4C011230-C8E5-7AFE-8E4B-ED6E8834DF90">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:42:17 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F2417D5-ED9B-5779-E18F-3CFFB4A71578" name="Seated PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:42:37 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

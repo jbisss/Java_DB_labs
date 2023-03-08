@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26B8409B-9481-C942-D837-9AFCB70D9888" name="Full Time">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:30:32 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>327F3453-2B7D-7435-4CDF-D8761BF86F0A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Salary" id="6C468D46-BDF8-6DE9-2B82-CA078631163E">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:30:44 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Insurance plan" id="3339BFAE-67B5-FE86-1828-9899845C14FB">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:30:52 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

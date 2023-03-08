@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDD519CF-B9A7-2B1A-EF91-0DE37F6147C1" name="Office">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:15:49 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number " id="5F8DA5B4-2C44-E2AB-F8FF-CA0713A5400F">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:15:56 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="EB277A9E-B2CC-A30F-3EB6-FB40799AD83A">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:16:09 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="30E453D8-70C1-0FA5-E214-E841F7308FF1">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:16:15 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09CAD4D4-8BC1-950D-3825-0BACB96A2D58" name="Office PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:16:05 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F8DA5B4-2C44-E2AB-F8FF-CA0713A5400F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

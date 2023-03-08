@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA48A908-A7CA-D0DB-777B-734794E1A9E1" name="Rental Agreement">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:02:38 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="6D4675D0-DC5D-93C6-B3C8-BF90A843CF4E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:02:52 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Originating rental office  " id="47171C18-1FC7-137C-BDD2-539C5843A3C0">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:02:58 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="503FF18E-8ACA-5C9C-0905-D10C79312F3E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:04:02 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Anticipated duration" id="FDD81304-233D-3C13-3080-1491524C7857">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:04:29 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Originating Office" id="EC5F8553-93FD-940C-C7AD-E8A03ACF83BC">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:05:08 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drop-off office" id="3009A2CC-70CC-34D2-CF6C-30E1EBC01822">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:05:28 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deposit Paid" id="36AC1797-0403-00DF-8ADD-9A9C302E7997">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:05:40 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Daily Rental Rate" id="887D15C9-D1E6-59EB-8D2E-1EAF8A80D7E8">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:05:53 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rate per mile" id="C958BEF5-93A5-27F3-BB94-7117F1582324">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:06:31 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="8633CCC2-AED5-DEE3-2DB4-A25532F635F9">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:10:01 UTC</createdTime>
+<generatorID>46F02619-D7A1-2C91-C841-0D064AB4A0B1</generatorID>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<referedAttribute>1C7A9744-D57E-166E-905A-78BC00AE350F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home Phone" id="DCA7F1B1-EBEB-CD13-2913-F75A7ECDBF01">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:10:16 UTC</createdTime>
+<generatorID>E8628556-8FA5-D3FD-AF55-664C15CCE5E8</generatorID>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<referedAttribute>03F5FF09-7E6A-381C-5074-A4E53F2433E8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D45D2FD-63D4-3D69-1D9F-2EF003E8BFE6" name="Rental Agreement PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:02:57 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D4675D0-DC5D-93C6-B3C8-BF90A843CF4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

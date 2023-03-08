@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24F3C534-1B76-341F-E04D-B1DA82DE0555" name="Sales Representative">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 08:54:25 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="419DD685-3C99-EC62-9379-E2DB245D7C7F">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 08:57:25 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="F48AAD98-9F92-904A-DBAB-3528A394B7FB">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:01:36 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E17FD3F4-F83E-518A-3CF5-B379BF197699">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:02:07 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adress" id="4788DCE4-1263-4D6A-5234-8EEFD62AB0B7">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:02:16 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="9F878265-8F7C-B473-00CC-DC6A06474575">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:02:23 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comission Rate" id="552F4AC6-FE0B-4B0C-524E-47BAB1DAF035">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:02:35 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="1DCA9D41-C3D0-ECAB-52ED-FCF7AA5B9781">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 13:43:19 UTC</createdTime>
+<generatorID>83A84A0C-9259-9302-38A8-4BAC27AD24E6</generatorID>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>419DD685-3C99-EC62-9379-E2DB245D7C7F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F15FA6AE-793A-51CA-367A-E4F493F4E61A" name="Sales Representative PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 08:57:28 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>419DD685-3C99-EC62-9379-E2DB245D7C7F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3F4C1A11-F252-2093-74E1-FA2A8455E3AA" name="Id">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 08:57:40 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<newElementsIDs>419DD685-3C99-EC62-9379-E2DB245D7C7F</newElementsIDs>
+<usedAttributes>
+<attributeRef>419DD685-3C99-EC62-9379-E2DB245D7C7F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F61C3BE9-3348-0A71-C3E2-E791A91EF2C9" name="Email">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:01:44 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<newElementsIDs>F48AAD98-9F92-904A-DBAB-3528A394B7FB</newElementsIDs>
+<usedAttributes>
+<attributeRef>F48AAD98-9F92-904A-DBAB-3528A394B7FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

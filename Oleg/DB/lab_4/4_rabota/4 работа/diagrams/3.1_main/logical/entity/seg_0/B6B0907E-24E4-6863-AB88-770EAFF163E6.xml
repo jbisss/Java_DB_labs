@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6B0907E-24E4-6863-AB88-770EAFF163E6" name="Exam">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:52 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9C23893B-F8A0-AA44-18DD-1CAEC4CF0893">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:09:06 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="3919F9FA-7675-4E87-84F8-0F0062B5D28C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:09:15 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F4CBBB0C-3583-3125-CBE2-2F39BB2EA6CC">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 19:15:54 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Date" id="B4F9791E-8A6F-0845-DF5C-82E56874A77D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 19:16:01 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="57A37DC2-F8EC-4930-A0D4-D4D7A78797DD">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 19:16:08 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF762EA8-4BEF-C218-979B-4A0838882352" name="Exam PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:09:14 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C23893B-F8A0-AA44-18DD-1CAEC4CF0893</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

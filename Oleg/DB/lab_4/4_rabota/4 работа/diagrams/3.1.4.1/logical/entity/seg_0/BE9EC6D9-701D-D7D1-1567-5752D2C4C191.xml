@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE9EC6D9-701D-D7D1-1567-5752D2C4C191" name="Item">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:12 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="27FF29E3-C06B-E83B-7AC6-98124DBC40D4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:32 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="D0151532-412A-E468-8619-E9F7E1176C14">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:37 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="97C7213A-3119-529A-181A-83C2459F4AFD">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:43 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="5C345730-E126-2405-46EF-E9386987B191">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:52 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="53006EC5-9B85-37CD-4429-70FBDA1608E1">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:58 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="98A65F03-E6E6-D79C-938C-CE4F17C2D307">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:08:08 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="BF2A2B92-FB43-6B45-436C-8B867CB02C4A">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:08:14 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="E4E09A81-7D4A-C058-F055-101AFE3E4B49">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:12:00 UTC</createdTime>
+<generatorID>704BF6E4-548A-70B5-E4A9-3612E3E47FDA</generatorID>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<referedAttribute>CBF39BDB-99BC-CA4F-989B-3F969561D7B5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85836479-E97A-806A-A3CD-FF5E3D97FAC7" name="Item PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:07:36 UTC</createdTime>
+<ownerDesignName>3.1.4.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27FF29E3-C06B-E83B-7AC6-98124DBC40D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

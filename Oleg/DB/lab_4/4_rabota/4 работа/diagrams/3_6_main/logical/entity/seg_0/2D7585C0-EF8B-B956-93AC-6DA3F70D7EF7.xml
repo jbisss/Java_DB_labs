@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D7585C0-EF8B-B956-93AC-6DA3F70D7EF7" name="Salesperson">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:50:08 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="22C4B147-7D1A-A5FB-0D36-8B1DCB2C106E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:50:17 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales Quota" id="3CF46256-E610-FB74-6B47-D5835DED3180">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:50:37 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="848E05C3-DADA-979D-E726-5FEE9AE63658" name="Salesperson PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:50:35 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22C4B147-7D1A-A5FB-0D36-8B1DCB2C106E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F2EEFCC-6BD9-53E4-BCDE-CD5D434B7683" name="Course">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:21 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="712F3BDE-B256-059B-B0A2-9890794C1041">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:27 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="422CE2DD-743C-CDE6-FEF2-AB4083722C70">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:30 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87E7C1E9-1EFB-04B1-458E-74E76D94212E" name="Course PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:41:29 UTC</createdTime>
+<ownerDesignName>3_4_main</ownerDesignName>
+<engineerTo>
+<item key="533203A0-9157-FF39-C4CE-6E9160C31F98" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>712F3BDE-B256-059B-B0A2-9890794C1041</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

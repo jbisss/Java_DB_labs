@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68A46BAB-2050-30CF-233D-485A1E63FA66" name="Course_1">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:02:43 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="93C7A69B-329A-899C-6692-58AFC10CAFED">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:02:43 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="D8586077-E76E-1B8E-79BD-C5A0FE0DED93">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:02:43 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D52EE70F-74C0-B4E0-2E56-C14DA37F23D9" name="Course PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:02:43 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93C7A69B-329A-899C-6692-58AFC10CAFED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

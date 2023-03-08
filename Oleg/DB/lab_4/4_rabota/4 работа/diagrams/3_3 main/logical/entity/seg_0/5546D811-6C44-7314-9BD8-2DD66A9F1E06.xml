@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5546D811-6C44-7314-9BD8-2DD66A9F1E06" name="Part Time">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:27:27 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>327F3453-2B7D-7435-4CDF-D8761BF86F0A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Hour salary" id="7CED1DAD-927D-8778-B771-5EF6BA15FDCF">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:27:41 UTC</createdTime>
+<ownerDesignName>3_3 main</ownerDesignName>
+<engineerTo>
+<item key="FED74B2C-3190-9CC9-77D7-3AD978678A05" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03454C01-1A78-DFC5-D599-324354C90474" name="Sales Director">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:39:00 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="28F06994-2DBB-DDE1-A20E-42950FE583C9">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:39:11 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="E80227E1-2F76-97D4-E6E6-48766D6907A4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:45:11 UTC</createdTime>
+<generatorID>B1A8D17E-1A00-839A-C0A1-CB69A087AEC8</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>850A420D-0368-A58E-5D22-9A08DDB2DB5B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0AB19D7-2E02-1085-A9C3-820CC632DF87" name="Sales Director PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:39:13 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28F06994-2DBB-DDE1-A20E-42950FE583C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

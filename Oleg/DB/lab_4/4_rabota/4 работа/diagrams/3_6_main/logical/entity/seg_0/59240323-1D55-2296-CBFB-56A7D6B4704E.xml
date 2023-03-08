@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59240323-1D55-2296-CBFB-56A7D6B4704E" name="Employee">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:56:28 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="16298415-2FE1-551C-79AC-49F717DF508D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:56:28 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales Quota" id="B1C9CEC0-E782-ADD1-51B5-360EFA473055">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:56:28 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9B3DBCF8-D5EE-FADA-F7C1-7A4252D17B64">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:57:16 UTC</createdTime>
+<generatorID>5C68A4DA-D02B-D3CD-C763-93089A42EBC6</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>16298415-2FE1-551C-79AC-49F717DF508D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC8E490F-FEE1-D5C4-1D22-9FA99000A3E7" name="Salesperson PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:56:28 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16298415-2FE1-551C-79AC-49F717DF508D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="459C507C-8002-742D-42BA-91D6672FFCDF" name="Floor">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:07:17 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="BF066A4F-E2B4-3B3A-A706-3241CA20AC2C">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:07:26 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="C85B37CD-44BE-23FA-8A6E-0D82DA9A6AC4">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:08:50 UTC</createdTime>
+<generatorID>30EDD656-B89A-C06B-F9DD-D93642812714</generatorID>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<referedAttribute>C0921257-A2AC-128D-22B1-ED9B48A96ABC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2483ABD4-4862-FA82-FCCC-0073473D173E" name="Floor PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:07:40 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF066A4F-E2B4-3B3A-A706-3241CA20AC2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

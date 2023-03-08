@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D3556BF-518C-03B2-FA7D-E5ADC1C54981" name="Item">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="95CA4B41-9D1E-04E4-7BC1-C154EAEDFCB2">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>07010A71-780E-CDBC-C58C-4825AADFAE2B</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C36BD1A7-6D72-B338-C94B-EC1A3FAB4DC8">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>4BB205CB-EA36-AFB7-D5D4-67B161F57E44</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="FD620E99-B621-445D-08FC-BC4E2A9CA346">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>6C6B20DC-B0ED-423B-5EE2-6160ABF3AB2F</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="FAC113B8-F2DF-FEEA-1EE9-902615B0B4D6">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>AE79490F-BFD4-5AD0-D94C-53CB3C36EBD7</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="5D2D5353-93FC-567F-E7A0-004D7A846125">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>68D48D18-D3E6-6BD0-2657-73273DFBEB78</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="C0079BF9-76F0-59AD-76D3-6C71771E9809">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<importedID>A7D6D5C9-6AAD-7D40-6CF6-6F676656B489</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="B3D907CA-23E4-6188-5CF3-5271A3F84189">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:10:46 UTC</createdTime>
+<generatorID>B6AF9CD5-06AD-1213-FAF0-14ACB15879CE</generatorID>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>AB0CD147-D0EA-9294-CB2A-16FB08533D99</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98FC5FE5-BF53-741A-FB70-EA5E9267E0CF" name="Item PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:57:04 UTC</createdTime>
+<ownerDesignName>3_2 Project</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95CA4B41-9D1E-04E4-7BC1-C154EAEDFCB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

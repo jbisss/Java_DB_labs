@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="6046B505-70C5-472D-D745-427B75AB7DD8">
+<createdBy>Василий</createdBy>
+<modifiedBy>Василий</modifiedBy>
+<createdTime>2023-02-26 15:26:09 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="26B8409B-9481-C942-D837-9AFCB70D9888" otype="Entity" vid="A21D866A-792D-51F5-B4E0-43882B9FA6A5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="596" y="322" width="167" height="103"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="327F3453-2B7D-7435-4CDF-D8761BF86F0A" otype="Entity" vid="AA3562E1-DAB3-B0C7-D04D-3FF6C294F0BE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="432" y="184" width="367" height="263"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5546D811-6C44-7314-9BD8-2DD66A9F1E06" otype="Entity" vid="376CE7A8-8AA9-F361-E9E9-B2B24D5CEF53">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="593" y="215" width="174" height="98"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="BD5867BC-40F6-C93B-7152-CA4712697892" otype="Hierarchy relation" vid_source="AA3562E1-DAB3-B0C7-D04D-3FF6C294F0BE" vid_target="376CE7A8-8AA9-F361-E9E9-B2B24D5CEF53">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="E96759F3-58F8-4BE2-E8E0-8B57A66A2462" otype="Hierarchy relation" vid_source="AA3562E1-DAB3-B0C7-D04D-3FF6C294F0BE" vid_target="A21D866A-792D-51F5-B4E0-43882B9FA6A5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+</connectors>
+</Diagram>

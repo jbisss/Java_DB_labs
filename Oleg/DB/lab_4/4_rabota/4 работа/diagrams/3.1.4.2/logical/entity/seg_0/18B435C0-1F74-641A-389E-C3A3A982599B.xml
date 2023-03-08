@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18B435C0-1F74-641A-389E-C3A3A982599B" name="Order">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:22 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="339C3571-E80E-D2FB-EBA6-36C6423B4D15">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:31 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="B05994CF-01AE-7DD4-2662-77200B42CF52">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:35 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="1B468A49-7871-E8B1-3C76-A9E3E6660A73">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:40 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Items purchased" id="0A711FDB-C390-31D2-04B1-33DB1A88566B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:43 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="4C883823-94D2-3655-AC43-799638692C73">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:05:06 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Units" id="026E8D9C-CA15-4C42-87AA-4FF58C1E9640">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:05:13 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total order price" id="BBC8048A-576D-BF9F-6F75-86D78703F4E8">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:05:28 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item size" id="88CFEC16-059F-5517-9175-AC85A9DFDE2C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:05:41 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="0D1BB5F1-5C1C-7BC6-D79C-46A33A423EDC">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:05:46 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="E0FF5FD8-FBC5-C45A-899B-74B45FCFD19D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:06:40 UTC</createdTime>
+<generatorID>4DE472B4-E565-FDB7-ABCE-B129FACE9D9C</generatorID>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<referedAttribute>972E24D4-031E-56CF-98AA-90C3C0E86F85</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBCA68A6-0F3F-B456-9A24-B0244CBCB6B7" name="Order PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:04:34 UTC</createdTime>
+<ownerDesignName>3.1.4.2</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>339C3571-E80E-D2FB-EBA6-36C6423B4D15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

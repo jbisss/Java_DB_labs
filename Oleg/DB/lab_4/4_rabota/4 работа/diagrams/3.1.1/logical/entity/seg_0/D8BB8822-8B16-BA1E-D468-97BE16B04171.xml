@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8BB8822-8B16-BA1E-D468-97BE16B04171" name="Inventory List">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:09:09 UTC</createdTime>
+<ownerDesignName>3.1.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="CBF39BDB-99BC-CA4F-989B-3F969561D7B5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:09:37 UTC</createdTime>
+<ownerDesignName>3.1.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost of the unit" id="CA66FC81-42D6-A9A8-24CA-9102E3D68EDE">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:09:41 UTC</createdTime>
+<ownerDesignName>3.1.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Units on hand" id="3510E6AD-48B5-065A-E9B1-74599AAB15D5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:10:01 UTC</createdTime>
+<ownerDesignName>3.1.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B84A92B-9E94-E382-A2FA-0C758F19ACCB" name="Inventory List PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 09:09:40 UTC</createdTime>
+<ownerDesignName>3.1.1</ownerDesignName>
+<engineerTo>
+<item key="F0C4914D-0188-13B3-1192-6FA260E2C333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBF39BDB-99BC-CA4F-989B-3F969561D7B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

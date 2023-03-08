@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC19597-B367-977D-A5FF-F516D8706E72" name="Sales Territories">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:48:27 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Territory Code" id="3B153634-75CA-6E9B-60A3-FDB090029AF2">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:48:50 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="District Code" id="B05AFF66-AC9F-A18A-7017-52E4CB7C6C37">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:49:23 UTC</createdTime>
+<generatorID>F16FC42C-3AE2-34E1-0FDD-9FDD2A07DBF1</generatorID>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<referedAttribute>6C233D51-41AA-3C16-1D81-483433680814</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49B3944A-E5D6-E9CD-303F-E02A7352CD61" name="Sales Territories PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 20:49:01 UTC</createdTime>
+<ownerDesignName>3_6_main</ownerDesignName>
+<engineerTo>
+<item key="99349D6A-F238-DA9F-ABC5-E8BC59A00432" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B153634-75CA-6E9B-60A3-FDB090029AF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

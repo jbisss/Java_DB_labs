@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FBE8CB0-8DB2-C409-3F6E-486042BF466C" name="Student">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:18:57 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1AC79C5C-8A76-C5CE-BFBA-5B40CB946321">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:04 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="A86B7AC9-35CC-AE93-335A-BAAAFBE3DC9F">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:11 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="436609C2-8EF1-3C8F-D4D3-DF469F571EB9">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:20 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registration Year" id="2666006A-F3DD-A64E-734F-6FAB9E1859B8">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:27 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="3D0C85E1-9B52-F518-334F-C8F400A32CB6">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:42 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Workinf Days" id="F9100A9F-0E90-FA75-822E-BA780C8CC2F0">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:53 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Days Off" id="6623D0D4-2881-8E21-A64E-980FDB08AA57">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:08 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eligibility for Exam" id="57F998EF-A9A6-72E0-73E3-3E28BD087D1A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:19 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3B937BE-5D76-D48F-EDF7-ACA0D8887136" name="Student PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:19:08 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AC79C5C-8A76-C5CE-BFBA-5B40CB946321</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0EF0FD1-D4C3-9149-232E-4ACBC76A0DFB" name="Company">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:06:48 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1C7A9744-D57E-166E-905A-78BC00AE350F">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:07:11 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="01998FD1-59FF-7828-0CBD-B3459B9F6700">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:07:15 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adress" id="7A2F0136-78A0-3C84-0B1B-CA34E4DE84FF">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:07:22 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Risk Level" id="63DD5D70-7F0C-55C5-5884-5EE997994D0E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:07:28 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD171801-619D-40EF-BEF7-0BF4D6252B0C" name="Company PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 21:07:14 UTC</createdTime>
+<ownerDesignName>3_7_main</ownerDesignName>
+<engineerTo>
+<item key="6F4EDB9B-B71C-0C90-A44F-3A889096C956" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C7A9744-D57E-166E-905A-78BC00AE350F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

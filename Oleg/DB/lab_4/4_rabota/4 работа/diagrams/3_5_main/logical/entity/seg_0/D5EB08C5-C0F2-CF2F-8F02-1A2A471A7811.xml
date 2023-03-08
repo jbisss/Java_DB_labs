@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5EB08C5-C0F2-CF2F-8F02-1A2A471A7811" name="Hotel">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:06:41 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C0921257-A2AC-128D-22B1-ED9B48A96ABC">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:06:52 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F1ADB650-D924-499F-74AF-E3B1C7EB29F3">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:06:55 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="B8E7F7F0-A927-205F-1F9D-B16B79D1AE66">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:07:08 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="783BD6B2-7433-F2B2-E4C1-AE35668542D7" name="Hotel PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 16:06:54 UTC</createdTime>
+<ownerDesignName>3_5_main</ownerDesignName>
+<engineerTo>
+<item key="C7FA77AC-C482-CE84-D5F4-5B65A32B32AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0921257-A2AC-128D-22B1-ED9B48A96ABC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

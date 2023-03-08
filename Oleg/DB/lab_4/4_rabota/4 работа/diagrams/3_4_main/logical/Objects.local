@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="11BCDA1A-25F5-807E-E90F-04D0D080F94B" name="Seated" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="492FFEEC-25CA-55D0-B639-80B96C5C2A91" name="Online" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8F2EEFCC-6BD9-53E4-BCDE-CD5D434B7683" name="Course" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="A8140652-9156-31C9-D173-784A0A8C2F44" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="11BCDA1A-25F5-807E-E90F-04D0D080F94B" propertyTargetId="8F2EEFCC-6BD9-53E4-BCDE-CD5D434B7683"/>
+   <object objectType="Relation" objectID="BF7162EE-6BD1-5141-6382-273D1A556737" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="492FFEEC-25CA-55D0-B639-80B96C5C2A91" propertyTargetId="8F2EEFCC-6BD9-53E4-BCDE-CD5D434B7683"/>
+   <object objectType="Arc" objectID="769CEA2E-2A3D-4CA3-0FF0-311B93BB71B7" name="Arc_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Arc" propertyParentId="D7EC5068-9E7D-D3BE-BD16-86D89E26A270" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

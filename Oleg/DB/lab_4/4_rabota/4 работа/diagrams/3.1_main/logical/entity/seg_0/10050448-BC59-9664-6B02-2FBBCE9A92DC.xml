@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10050448-BC59-9664-6B02-2FBBCE9A92DC" name="Information_2">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:08 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course ID" id="E74DCE2A-38EE-14FC-8A7A-4C31D3402B14">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:08 UTC</createdTime>
+<generatorID>214A73B8-B02F-9D0E-3E37-D3ADD5696718</generatorID>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam ID" id="277AC0C4-EA7D-1E44-F63C-9198C0A9B772">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:08 UTC</createdTime>
+<generatorID>AA2EA6D2-5B95-91D6-398D-BE83D1FE64F5</generatorID>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Continuance" id="2CA3DCC4-A488-1FE0-F68D-11B4219C2023">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:08 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="000C7640-020B-F085-CE21-8C21A30BFB86">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 19:14:33 UTC</createdTime>
+<generatorID>EFA6364E-CE30-F6D9-E5E4-464FB1576EDF</generatorID>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<referedAttribute>D5C7326B-86EA-96A3-450A-6B9EEA1C8448</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="DC867808-CA4C-483D-BC8E-7ED542F0A784">
+<createdBy>User</createdBy>
+<createdTime>2022-03-08 19:19:38 UTC</createdTime>
+<generatorID>91684854-3D21-CAEA-93FF-EAAD3CDF1A8B</generatorID>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<referedAttribute>371AB547-5CBF-1CA6-CB55-57C6E7802751</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D016DB4D-370B-11D8-8C55-C5AEB29EAE00" name="Duration PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-01 15:08:08 UTC</createdTime>
+<ownerDesignName>3.1_main</ownerDesignName>
+<engineerTo>
+<item key="17819AF2-4ABC-D76F-7A45-6D756C28AFBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E74DCE2A-38EE-14FC-8A7A-4C31D3402B14</attributeRef>
+<attributeRef>277AC0C4-EA7D-1E44-F63C-9198C0A9B772</attributeRef>
+<attributeRef>000C7640-020B-F085-CE21-8C21A30BFB86</attributeRef>
+<attributeRef>DC867808-CA4C-483D-BC8E-7ED542F0A784</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

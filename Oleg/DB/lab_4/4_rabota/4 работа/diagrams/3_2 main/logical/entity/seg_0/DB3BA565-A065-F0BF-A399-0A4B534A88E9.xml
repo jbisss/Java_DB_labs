@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB3BA565-A065-F0BF-A399-0A4B534A88E9" name="Exam">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:43 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="175F14B0-E368-1C7B-6782-F550B73B8525">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:49 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="CABA0C45-C670-D97F-4787-77264EAF4738">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:53 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="3DB07D4B-9E5B-F967-22C3-EBE1594E1C75">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:59 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="C00A5082-296E-A2AE-CE87-64E6B61D1603">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:21:03 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Date" id="F72A781F-1EB6-4C5C-A0A5-28E16238E585">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:21:08 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="186705D2-6913-6934-3740-CBECB3120239">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:21:15 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C86F47B9-9F22-101A-3B53-D08B41ADC133">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:22:03 UTC</createdTime>
+<generatorID>5159B635-EB66-3A16-5D8E-E6D08CB8C3C2</generatorID>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<referedAttribute>1AC79C5C-8A76-C5CE-BFBA-5B40CB946321</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AD85813-F98D-3347-831E-8AF87AD73342" name="Exam PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-02-26 15:20:52 UTC</createdTime>
+<ownerDesignName>3_2 main</ownerDesignName>
+<engineerTo>
+<item key="A8DA4080-1ACE-B4F1-442B-198B654E0F54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>175F14B0-E368-1C7B-6782-F550B73B8525</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
