@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58A3583B-CE03-2D92-3A6C-E668E131229F" name="Individual">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:00:53 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B67D430D-4442-74FB-0F04-64CCDBBF7640</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Loyalty card number" id="DEA78495-67D8-AC65-1F9F-F77DEC101D6C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:01:11 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="E9FA7A4C-91FD-BD3F-8B7D-47257DC735C8">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:05:43 UTC</createdTime>
+<generatorID>9BF8D161-96E4-AB17-8BF3-D9F52ED92CAE</generatorID>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B8ACD625-A58F-B056-1AEB-A0E8E74DF354</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99005FF4-CE4E-DD94-029E-5020B1E281C3" name="Loyalty card number">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:01:25 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<newElementsIDs>DEA78495-67D8-AC65-1F9F-F77DEC101D6C</newElementsIDs>
+<usedAttributes>
+<attributeRef>DEA78495-67D8-AC65-1F9F-F77DEC101D6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

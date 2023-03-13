@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFB428B1-80D0-D4A2-FFD9-0F8FE5D4653E" name="Price history">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:00 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Start Date" id="E89119E9-F42D-B893-BDAC-23EFA418EE43">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:08 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Time" id="436AC7E8-02EB-E281-7D5D-38A9610D500D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:19 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End Date" id="DBF91536-5EB4-73EF-ECF0-9687142F66AE">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:30 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End Time" id="578C8068-3F00-D591-BE40-9D33F67F2307">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:36 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="92FA521E-374A-FF85-7B38-5B9666F4760E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:10:17 UTC</createdTime>
+<generatorID>7A344C13-A21A-07CD-325C-F62FBB723402</generatorID>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>95CA4B41-9D1E-04E4-7BC1-C154EAEDFCB2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59344E27-9BD2-D20B-44EE-C6D86599594B" name="Price history PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:04:18 UTC</createdTime>
+<ownerDesignName>3.3.3 2NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E89119E9-F42D-B893-BDAC-23EFA418EE43</attributeRef>
+<attributeRef>436AC7E8-02EB-E281-7D5D-38A9610D500D</attributeRef>
+<attributeRef>92FA521E-374A-FF85-7B38-5B9666F4760E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

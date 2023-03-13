@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B65A93E-0462-57E9-B565-0B70CCE58FA2" name="Team Representative">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:00:16 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B67D430D-4442-74FB-0F04-64CCDBBF7640</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Team they belong to" id="910DB28F-414E-CF99-A686-B74DF7B8C8A4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:00:25 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="1EF25CAF-EA26-AA18-1657-39D256BF3A86">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:05:27 UTC</createdTime>
+<generatorID>6B68A0FD-E199-86FD-CA4B-B4F6967CAA0E</generatorID>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>D92344D2-FDAD-5CFB-01B6-36B1C0DD68A0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

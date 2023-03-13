@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E1D728E-ABB6-EB3F-879C-563231B17B0A" name="Car">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:33:55 UTC</createdTime>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="D36C5D86-85E0-E2B2-8BFA-F458C1E7C126">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:34:08 UTC</createdTime>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Make" id="E5EF5547-B918-BAA0-FB14-1BFB7511C165">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:34:13 UTC</createdTime>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model" id="B659AD95-F73A-B055-8FA4-468A212CC131">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:34:17 UTC</createdTime>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheme" id="0F17AEC0-C79A-C189-1F4D-0F014F24111A">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-06 09:57:34 UTC</createdTime>
+<generatorID>0D9CBD83-EB99-18E3-0175-6FE20561D669</generatorID>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>629A7717-59A6-AD1E-AF6C-498855D5B282</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCD8E4BB-3F3C-81EC-AC08-424EC8F6F258" name="Car PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:34:12 UTC</createdTime>
+<ownerDesignName>smth</ownerDesignName>
+<engineerTo>
+<item key="66315831-3E0A-57E2-8C97-D00113079FD7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D36C5D86-85E0-E2B2-8BFA-F458C1E7C126</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

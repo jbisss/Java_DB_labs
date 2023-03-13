@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9A767F4-9D2E-9965-3A8B-6EAA935BF202" name="Team">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="D92344D2-FDAD-5CFB-01B6-36B1C0DD68A0">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>B4D2D665-8576-2074-D480-0D6FE59BAEF2</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="ED8AC9C9-029A-3A1E-825F-69456B708BA7">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>8D300A0D-A3E7-9683-2333-91AC4F794238</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of players" id="BB811D2D-436F-7B9C-FBFF-0737CF4DB637">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>B6CB319C-0E41-C4CE-8660-8575420852B2</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="B7B60EE7-D643-502E-78A2-AB5D0783172C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>F9FA1C6E-B0D6-DFC2-E93D-64FD79376DF6</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="D5F4DEFD-2B59-3D5E-0AAD-6157B3C222E1">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:05:11 UTC</createdTime>
+<generatorID>6B68A0FD-E199-86FD-CA4B-B4F6967CAA0E</generatorID>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>AAA9B80C-95B7-5104-759B-1CE6F6D6E606</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3203205-04F6-66D6-459D-36267159183A" name="Team PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:41 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D92344D2-FDAD-5CFB-01B6-36B1C0DD68A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

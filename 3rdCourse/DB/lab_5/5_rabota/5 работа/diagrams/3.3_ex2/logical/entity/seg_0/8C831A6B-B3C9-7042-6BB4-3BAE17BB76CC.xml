@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C831A6B-B3C9-7042-6BB4-3BAE17BB76CC" name="Seated">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:25:47 UTC</createdTime>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Building" id="A3B0C938-0CF6-AFBC-83DF-CFED4B18A439">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:25:55 UTC</createdTime>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room" id="B8FE60A4-EE3A-05A4-2EEE-A13F8272417E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:01 UTC</createdTime>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date/Time" id="BE623206-DD1D-D5CF-9828-FA1E995C0C95">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:05 UTC</createdTime>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A4FDD96-D7BD-DAFC-E4E4-EBEA55F41A4B" name="Seated PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:00 UTC</createdTime>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3B0C938-0CF6-AFBC-83DF-CFED4B18A439</attributeRef>
+<attributeRef>B8FE60A4-EE3A-05A4-2EEE-A13F8272417E</attributeRef>
+<attributeRef>BE623206-DD1D-D5CF-9828-FA1E995C0C95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

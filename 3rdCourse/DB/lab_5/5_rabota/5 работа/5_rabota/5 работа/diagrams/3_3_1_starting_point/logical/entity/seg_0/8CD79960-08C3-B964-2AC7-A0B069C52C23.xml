@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CD79960-08C3-B964-2AC7-A0B069C52C23" name="Sales Representative">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B8ACD625-A58F-B056-1AEB-A0E8E74DF354">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>FFB8325C-142D-EF6E-B0BB-BE428E2D5056</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="74F02F58-1E07-254F-B28D-C58B40FC91D0">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>9CC2BF23-75AA-8DBF-1093-D15E36E9DD97</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B3F28311-6172-D735-3D52-3DA3ED3223A7">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>02F0BA99-8A9F-9372-FF2D-4B22E0D6B79D</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="6EB1FF46-A65B-2525-1340-EC99601E9CD2">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>B805161D-BFC2-2A17-EC67-EC1D4666ED4E</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="3A3284B5-55AB-035A-262F-C44C34A08B1E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>DE7FC59A-0AE1-8388-42A6-F2036E9B4ED1</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comission Rate" id="C6458552-7093-1363-18E5-B557B2D6A172">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<importedID>992F57D5-0B3D-1F7B-E2B6-0CE25BF2C617</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F78191B3-ACBA-863E-089B-C421E3DCD7C5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:06:25 UTC</createdTime>
+<generatorID>E1D5FBCC-F05E-C40D-1A11-71A52AE26419</generatorID>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B8ACD625-A58F-B056-1AEB-A0E8E74DF354</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CBD0C70-6C72-986A-7055-0687ADD9520C" name="ID">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8ACD625-A58F-B056-1AEB-A0E8E74DF354</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E3B9B92D-6391-8C6D-A345-B66E8CC8DBE5" name="Email">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:46 UTC</createdTime>
+<ownerDesignName>3_3_1_starting_point</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>74F02F58-1E07-254F-B28D-C58B40FC91D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

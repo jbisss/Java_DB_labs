@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD607BE4-6341-1FF3-E976-501E3DA41853" name="Order">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:52 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A84F440B-BAAA-D120-ADF3-FEC9A10A8455">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:52 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>32A25C14-2CC9-15DC-14E2-01115C4D0422</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="13A050AC-115D-C6CC-3CB9-623EA9BCF53E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:52 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>B6529E2C-508C-5C76-8677-923C6F4BB59F</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="4A916903-598F-297F-3E7B-D2ED4423C2A4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:58:47 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Units" id="11BAE576-60D9-9421-E61D-3F7E090FF522">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:52 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<importedID>B0D3C36A-10B7-4B77-8375-4E71BACE5E7D</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="F446C515-9283-5E7E-A859-F84664F50898">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:07:05 UTC</createdTime>
+<generatorID>8B3FE1E5-A695-F3BC-ACCD-EC04885518CD</generatorID>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>AAA9B80C-95B7-5104-759B-1CE6F6D6E606</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Items purchased" id="FBE11B26-929E-C3D2-7F18-34006964AFDB">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:33:44 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86B58786-680E-3D75-AC51-2F5D813B93A7" name="Order PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:52 UTC</createdTime>
+<ownerDesignName>3.3.1 UNF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A84F440B-BAAA-D120-ADF3-FEC9A10A8455</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

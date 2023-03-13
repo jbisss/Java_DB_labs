@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55540D09-05F6-B78C-71D5-FD65EB921E6F" name="Message">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:28:55 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0DAE0369-547B-6C23-9386-D7684BD48D5D">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:06 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User Name" id="7C4E6DF4-22D9-3ED9-8C88-0870344E9750">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:11 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Recorded Date" id="845EC818-1641-B43E-0030-47571D7638E9">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:16 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject" id="A2E4D033-7E8B-72CF-E7B4-94F071E0A116">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:24 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Text" id="DB61E1C2-4F74-CD42-FBA2-95D41D092810">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:48 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="293EE224-788E-1CE9-40CF-36BE532FB1F2">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:31:03 UTC</createdTime>
+<generatorID>6F44F8BA-9432-820A-575B-8BEAC5D6D690</generatorID>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<referedAttribute>1D9B9877-1371-317F-C40E-6F5F316E30E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="DDD11421-0F16-C64D-8DB6-98004C5CE1C1">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:32:01 UTC</createdTime>
+<generatorID>57DEDEEF-CBE7-A3B0-DE74-0DE95EDA7FF6</generatorID>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<referedAttribute>2E9D6C7F-5C2F-67D9-7489-2E7EE0E2B1AB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C44CE552-D17A-37BC-75A8-48921E5A8E01" name="Message PK">
+<createdBy>Василий</createdBy>
+<createdTime>2023-03-05 16:29:10 UTC</createdTime>
+<ownerDesignName>3.3_ex_3</ownerDesignName>
+<engineerTo>
+<item key="72B04D13-6DDE-D339-DBB7-560C1EF12F94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DAE0369-547B-6C23-9386-D7684BD48D5D</attributeRef>
+<attributeRef>7C4E6DF4-22D9-3ED9-8C88-0870344E9750</attributeRef>
+<attributeRef>293EE224-788E-1CE9-40CF-36BE532FB1F2</attributeRef>
+<attributeRef>DDD11421-0F16-C64D-8DB6-98004C5CE1C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

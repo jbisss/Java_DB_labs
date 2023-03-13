@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC42E75-37CB-A1A8-BC49-4DD20C6A298A" name="Faculty_Login_Details">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>1B06357A-AC8D-BB23-24DB-AEF3B9C39618</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Login_DateTime" id="26139CE6-3F71-B47A-1251-C5D93B7CCF31">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>4D99BB70-6812-2BC9-0473-ABED7A0FE2A2</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Full_Time_ID" id="B69D9820-B740-8368-FF7A-4617D526DDF6">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>9AB39843-B208-46E3-E835-36C0DA8EE6C8</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Faculty_ID" id="AC37EAD3-2ABC-87E2-939B-BBD2C6B5CA5A">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:33:39 UTC</createdTime>
+<generatorID>F16C9D98-AA54-8D92-D471-AC640AF6B4AF</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5DC0B72-CC2D-5D6B-9332-DA545349BBC6" referredColumn="1506CE15-FAC9-F1C7-48D8-8749876EB6B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8841A599-E6A0-1FEF-9A22-2E5EFA99CAD1" name="Faculty_Login_Details_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>5C291BE2-9252-41F6-AFCA-FE7ED03CA20F</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26139CE6-3F71-B47A-1251-C5D93B7CCF31"/>
+<colUsage columnID="AC37EAD3-2ABC-87E2-939B-BBD2C6B5CA5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABB28FE8-06F4-9421-387E-EA6F54F3B28E" name="Faculty_Login_Details_Faculty_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:33:39 UTC</createdTime>
+<generatorID>811B5D3A-4AC8-C22F-8DBE-C0A3ABB6847A</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC37EAD3-2ABC-87E2-939B-BBD2C6B5CA5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFDBF9E5-D2D1-4BB3-6696-74194D229D05" name="Student">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>18BFCB41-ED4A-CE99-1A7E-B95E438284C0</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="61BB2207-9C42-2246-4EA8-B7B0BE5C17C5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>6D5799AF-0B38-336A-D4C8-CC86E59D62C2</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="B7FA1ABB-161D-7573-8AE1-5F33B70E579D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>FAADEEE7-223B-56C6-9B69-5334561C2F16</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="1CB59A0F-7B55-0C1A-3310-4BB7F048DD18">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>FF450091-3550-7160-115A-84A7FE693D0E</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Year" id="A16C4205-C170-582C-FF7D-8B554F7BFA95">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>3289D6F2-8766-5A89-4540-97C3DB3C31CF</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="01094612-4707-62A8-7228-A8D4CFA07317">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>6538CC72-CCDA-84CC-4D91-9E6F4BCB411C</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_Information_ID" id="F1632642-CE89-0944-E63D-5057968CCDF6">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>FFBC0713-15E4-0DED-2B1A-531F6207DFFC</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD3A1039-0461-B9A9-423F-3C1F6DBB0B17" referredColumn="210CF54A-A5A7-14A4-F21E-36CE8055FA0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BAE6071-FD20-1794-7797-832AE0BABDF7" name="Student_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>567C8829-21E6-537D-A260-E92D616AE542</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BB2207-9C42-2246-4EA8-B7B0BE5C17C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C0BCB39-A154-346C-A4A4-E40CEE45F138" name="Student_Parent_Information_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>F87D697E-1273-6E9B-0362-67E981B46738</generatorID>
+<ownerDesignName>3.3_ex2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1632642-CE89-0944-E63D-5057968CCDF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

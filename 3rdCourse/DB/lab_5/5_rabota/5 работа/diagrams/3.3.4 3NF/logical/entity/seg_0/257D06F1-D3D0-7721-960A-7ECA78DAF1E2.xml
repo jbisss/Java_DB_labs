@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="257D06F1-D3D0-7721-960A-7ECA78DAF1E2" name="Sales Representative Address">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:43:09 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Postal Code" id="F3EC4663-0C14-8E2A-3A1E-87B28366F866">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:43:09 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="624F6D95-80D7-F685-2A43-A0822B831456">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:43:09 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="3F148841-73A0-3768-1EC0-F6DC13AB1638">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:43:09 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building Number" id="FAA954E7-80CB-E6D2-E77B-911404161094">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:43:09 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="D235783A-5604-8E71-D833-CA0DE621D45B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:44:58 UTC</createdTime>
+<generatorID>8912EA9F-CC2F-75AF-1262-6C1293B8477F</generatorID>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<referedAttribute>B8ACD625-A58F-B056-1AEB-A0E8E74DF354</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

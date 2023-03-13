@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4E1D728E-ABB6-EB3F-879C-563231B17B0A" name="Car" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="86C60AA6-2959-66F0-9A57-F566AD6E8EB1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0B56DF33-BB93-C792-BBD3-13215912F488" name="Color" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="86C60AA6-2959-66F0-9A57-F566AD6E8EB1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="0D9CBD83-EB99-18E3-0175-6FE20561D669" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="86C60AA6-2959-66F0-9A57-F566AD6E8EB1" propertySourceId="4E1D728E-ABB6-EB3F-879C-563231B17B0A" propertyTargetId="0B56DF33-BB93-C792-BBD3-13215912F488"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

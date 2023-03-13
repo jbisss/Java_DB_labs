@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="3_3_1_starting_point" id="7B59ACCE-DEC6-9BC3-75C5-0AFAF28EAFC4" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:26 UTC</createdTime>
+<ownerDesignName>3.3.1 Project start</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B59ACCE-DEC6-9BC3-75C5-0AFAF28EAFC4</designId>
+</OSDM_Design>

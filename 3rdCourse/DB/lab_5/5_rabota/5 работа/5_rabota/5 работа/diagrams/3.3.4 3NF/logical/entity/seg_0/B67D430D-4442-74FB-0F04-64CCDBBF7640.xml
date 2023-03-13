@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B67D430D-4442-74FB-0F04-64CCDBBF7640" name="Customer">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="AAA9B80C-95B7-5104-759B-1CE6F6D6E606">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<importedID>DD27B72E-E14D-2643-E87F-9A67912854B7</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="F0298405-1168-E90E-18C4-187E5455E396">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<importedID>466BECEB-6AFC-F722-5166-90825ED0D432</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="8BF31A2C-4A2E-5D6D-F831-122F31C781F9">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<importedID>0795CBBF-F9E6-156B-2A62-BFD1CAA05192</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Current Balance" id="72A6EE38-AB91-2559-D70B-816FE2C2AE57">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<importedID>91DFEC19-D709-B9A8-A67C-AE484D81BB09</importedID>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="398579DB-AC20-CE16-E891-F7369A75CFA7">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:40:51 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="D56987C7-47EB-FCD1-D045-22BCD8779605">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 15:41:02 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="452C256D-009F-54F4-A9C0-D52A9BAB5398" name="Email">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>F0298405-1168-E90E-18C4-187E5455E396</attributeRef>
+<attributeRef>AAA9B80C-95B7-5104-759B-1CE6F6D6E606</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3FD7A0E4-BC69-6D46-A57F-8D796607B142" name="Customer PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 14:56:33 UTC</createdTime>
+<ownerDesignName>3.3.4 3NF</ownerDesignName>
+<engineerTo>
+<item key="1BDABE97-5459-1B0C-05AD-9550BB864CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAA9B80C-95B7-5104-759B-1CE6F6D6E606</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
