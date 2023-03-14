@@ -1,4 +1,4 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 	public interface MountainParts {
 	//public final String TERRAIN = "off_road";

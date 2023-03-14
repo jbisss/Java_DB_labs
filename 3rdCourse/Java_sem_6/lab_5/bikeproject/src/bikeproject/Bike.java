@@ -1,11 +1,13 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 public abstract class Bike implements BikeParts {
 
 	private String handleBars, frame, tyres, seatType;
 	private int NumGears;
 	private final String make;
-	
+	public void printDescription(){
+		System.out.println("Bike!");
+	}
 	public Bike(){	
 		this.make = "Oracle Cycles";
 	}//end constructor

@@ -1,4 +1,4 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 public class RoadBike extends Bike implements RoadParts{
 	
@@ -8,7 +8,9 @@ public class RoadBike extends Bike implements RoadParts{
 	{
 		this("drop", "racing", "tread less", "razor", 19, 20, 22);
 	}//end constructor
-	
+	public void printDescription(){
+		System.out.println("RoadBike!");
+	}
 	public int getTyreWidth() {
 		return tyreWidth;
 	}

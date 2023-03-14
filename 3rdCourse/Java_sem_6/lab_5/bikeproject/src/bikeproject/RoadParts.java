@@ -1,4 +1,4 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 public interface RoadParts {
 //public final String TERRAIN="track_racing";

@@ -1,10 +1,12 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 public class MountainBike extends Bike implements MountainParts{
 
 	private String suspension, type;
 	private int frameSize;
-	
+	public void printDescription(){
+		System.out.println("MountainBike!");
+	}
 	public MountainBike()
 	{
 		this("Bull Horn", "Hardtail", "Maxxis", "dropper", 27, "RockShox XC32", "Pro", 19);

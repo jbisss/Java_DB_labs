@@ -1,4 +1,4 @@
-package JavaBank;
+package JavaBank.JavaBank.jar.JavaBank;
 
 public class TestCustomerAccounts {
     public static void main(String[] args){

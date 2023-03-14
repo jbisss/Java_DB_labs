@@ -1,4 +1,4 @@
-package bikeproject;
+package bikeproject.src.bikeproject;
 
 public enum BikeUses {
     off_road,
