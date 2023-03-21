@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D722530-F624-4105-8DF3-656710D22C7A" name="CUSTOMER">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:35:51 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CTR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="167F6FE5-D176-A5E4-A1A5-26DAB978674E">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:04 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="9632DC6A-289B-AEBD-74BE-53296F2A39C2">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:11 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First name" id="DBE60275-8247-9F54-656D-45C9B8590F4D">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:37 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last name" id="FA9834CF-D366-81A7-9570-9BF1F9AAA466">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:56:14 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone number" id="E746067A-476A-F9FC-4EA5-7EDCCF90FF85">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:43 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Balance" id="8927F5C1-6865-6FC8-4E11-A17D6DD34EC1">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:57 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77C438B3-0DE1-0662-65FF-C508E91FC7FA" name="CUSTOMER PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:08 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="false"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>167F6FE5-D176-A5E4-A1A5-26DAB978674E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5E7162B0-4D02-4AAC-74DD-D226697BE0E0" name="Key_2">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:36:19 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="false"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<newElementsIDs>9632DC6A-289B-AEBD-74BE-53296F2A39C2</newElementsIDs>
+<usedAttributes>
+<attributeRef>9632DC6A-289B-AEBD-74BE-53296F2A39C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

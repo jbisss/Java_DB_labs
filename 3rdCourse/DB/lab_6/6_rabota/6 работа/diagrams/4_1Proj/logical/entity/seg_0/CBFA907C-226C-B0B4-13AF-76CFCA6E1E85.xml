@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBFA907C-226C-B0B4-13AF-76CFCA6E1E85" name="INVENTORY LIST">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:48:45 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ILT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9E23A624-1360-6662-9E5C-92E89AFA7CC1">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:48:58 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost of the unit" id="5D9B4F53-D91E-4A1E-09B5-AF4A44939F79">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:49:01 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Units on hand" id="37834B87-BA46-5470-2269-9C570530D4BF">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:49:10 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1A967F1-524F-FC00-B2A0-29F196C0543E" name="INVENTORY LIST PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:49:00 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="false"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E23A624-1360-6662-9E5C-92E89AFA7CC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

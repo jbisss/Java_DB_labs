@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A4A9211-ECC6-B1DF-595B-5EF1ABE7DC5A" name="ORDERED_ITEM">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>DADB37E9-E85E-D94A-976F-569E3822C525</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>ODR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Quantity_ordered" id="811A7AA0-82E9-22AF-AA5B-650A9DD0B431">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>9A99DE6A-D4D2-226A-DB37-87C0A7FFE451</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity_shipped" id="39D3D746-948B-33D0-3968-EBD92CBA600A">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>3317FABA-B7FB-E054-38F0-5931388BA5EF</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="A6BCDA4B-F076-C5EC-6A92-240912482BA4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>4E16522C-7B61-5C36-0F64-83B2C8B60DB5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1088476-2B60-D843-4FB4-CEA083AC1075" referredColumn="021C974B-2996-06CA-2FEF-D228437AB081"/>
+</associations>
+</Column>
+<Column name="ITEM_Number" id="E3951223-6FBE-282D-59A6-D3E74EF2BBAD">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>A52A5D94-C2AA-44EC-92E7-1676F3F340D5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76DAB7C0-D366-E233-63AC-704933ACB929" referredColumn="6233B030-2BB8-EE3E-3097-F770491E4D37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549773EF-6431-1EA4-6BA2-3082B7530470" name="ORDERED_ITEM_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>463D070C-4A0D-52FF-D33E-362817B1ED45</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6BCDA4B-F076-C5EC-6A92-240912482BA4"/>
+<colUsage columnID="E3951223-6FBE-282D-59A6-D3E74EF2BBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6762521B-960C-419E-018F-B00EEA0CB93A" name="ORDERED_ITEM_ORDER_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>63F7DAE8-129D-EFFA-1BDD-047CE1BA3EBE</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6BCDA4B-F076-C5EC-6A92-240912482BA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5228AB3B-592E-582D-F7BF-04E717DA1225" name="ORDERED_ITEM_ITEM_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>3113712B-3E72-9B97-E9F7-65A3872604E7</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3951223-6FBE-282D-59A6-D3E74EF2BBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

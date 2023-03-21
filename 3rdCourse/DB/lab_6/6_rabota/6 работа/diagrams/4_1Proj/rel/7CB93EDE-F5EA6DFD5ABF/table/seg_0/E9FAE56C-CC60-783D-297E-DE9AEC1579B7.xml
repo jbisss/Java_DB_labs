@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9FAE56C-CC60-783D-297E-DE9AEC1579B7" name="INVENTORY_LIST">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>CBFA907C-226C-B0B4-13AF-76CFCA6E1E85</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>ILT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="58AC4A93-5875-B43A-522A-29847DED7796">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>9E23A624-1360-6662-9E5C-92E89AFA7CC1</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cost_of_the_unit" id="3B456149-0353-3131-A917-8B8C679653E6">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>5D9B4F53-D91E-4A1E-09B5-AF4A44939F79</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Units_on_hand" id="23D90CFF-8DA1-C082-0D11-99D22B07C7B6">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>37834B87-BA46-5470-2269-9C570530D4BF</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5CDAC30-6A0B-BE50-154E-40ED190B18D1" name="INVENTORY_LIST_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>F1A967F1-524F-FC00-B2A0-29F196C0543E</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58AC4A93-5875-B43A-522A-29847DED7796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

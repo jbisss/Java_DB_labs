@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB6EC28-0548-7446-558B-E72BCB13FD23" name="ORDERED_ITEM">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>DADB37E9-E85E-D94A-976F-569E3822C525</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>ODR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Quantity_ordered" id="713AB069-6B31-C6C0-503A-8C663E55E7C7">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>9A99DE6A-D4D2-226A-DB37-87C0A7FFE451</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity_shipped" id="5003C6F7-2DD5-A2E7-3A63-80BFAF58CF80">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>3317FABA-B7FB-E054-38F0-5931388BA5EF</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="2B4FB658-600B-08A2-6B15-97F6BA25A2EA">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>4E16522C-7B61-5C36-0F64-83B2C8B60DB5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F98CAE0-AAAD-8B2D-8BEE-1247CAE6B037" referredColumn="8BD241E1-0C97-0798-1905-608CC2274FE2"/>
+</associations>
+</Column>
+<Column name="ITEM_Number" id="68E5C23C-76DB-5129-3C8A-C0D5395219A0">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>A52A5D94-C2AA-44EC-92E7-1676F3F340D5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EA86631-05E2-4356-9CED-C3EE74513562" referredColumn="8F67AF9D-39AE-7EEE-88BA-70B2D1CB87CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A3B46DD-89BC-5EFD-2C7E-7DD4DF80A2F6" name="ORDERED_ITEM_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>463D070C-4A0D-52FF-D33E-362817B1ED45</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B4FB658-600B-08A2-6B15-97F6BA25A2EA"/>
+<colUsage columnID="68E5C23C-76DB-5129-3C8A-C0D5395219A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="901DF63F-C1C8-583F-DD52-317647BAA5C3" name="ORDERED_ITEM_ORDER_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>63F7DAE8-129D-EFFA-1BDD-047CE1BA3EBE</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B4FB658-600B-08A2-6B15-97F6BA25A2EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C785F3A-640C-64C3-00D9-1D5C5F192128" name="ORDERED_ITEM_ITEM_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>3113712B-3E72-9B97-E9F7-65A3872604E7</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E5C23C-76DB-5129-3C8A-C0D5395219A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

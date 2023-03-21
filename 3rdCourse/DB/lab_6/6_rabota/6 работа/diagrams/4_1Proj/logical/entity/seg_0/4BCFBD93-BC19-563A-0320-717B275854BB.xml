@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BCFBD93-BC19-563A-0320-717B275854BB" name="TEAM REPRESENTATIVE">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:37:10 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="false"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7D722530-F624-4105-8DF3-656710D22C7A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Team they belong to" id="B92964DC-D194-B73B-0CC0-C18CC34000AB">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:37:28 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="775454E0-4DBA-F644-DBF9-E357EAD4E611">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-10 19:50:55 UTC</createdTime>
+<generatorID>914708B5-FBC5-10BD-A8DB-3E35FE1A31D3</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<engineerTo>
+<item key="BF95578E-25DD-9792-E5FF-4E969CFE0037" value="true"/>
+<item key="7CB93EDE-9DD2-CB2E-24D2-F5EA6DFD5ABF" value="true"/>
+</engineerTo>
+<referedAttribute>92D4D7CB-F769-103B-6D5E-8D3C28A48357</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10672B43-1B80-C640-9F54-FF32B2630DB1" name="Exam_Result">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>42BAE23D-8B31-1F0C-C6B1-6804CEEFA508</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Grade" id="0A71FBD6-19CB-7276-2DCE-A928ED201C55">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>B44E15EB-8408-F955-B579-286F5446C7D9</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_ID" id="49445673-0F28-2AA3-A2D2-A28A9204F286">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>E829AF79-34B4-42BC-4853-0B48CC668196</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B8CE492-65AE-82E7-BF8B-9F65E8E989FF" referredColumn="61BB2207-9C42-2246-4EA8-B7B0BE5C17C5"/>
+</associations>
+</Column>
+<Column name="Exam_ID" id="64BB8A60-59F6-1054-3772-478AC21C527C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>9F0A8AA0-FB35-F876-6C5A-BD39FF720322</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90CF56BE-E366-FDC7-7180-9355CD4652E6" referredColumn="57D56BAF-1CD3-ACC1-8776-6E657A9C046D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F054468A-3B19-4E8C-4094-B6462370AB85" name="Exam_Result_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>4F97466F-E418-6385-38C3-95380A9C1836</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49445673-0F28-2AA3-A2D2-A28A9204F286"/>
+<colUsage columnID="64BB8A60-59F6-1054-3772-478AC21C527C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E4DF42E-1DB6-3DC7-871E-102F65BF6253" name="Exam_Result_Student_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>EEDB6CF4-95C5-7558-A1D6-E6D20067ACBD</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49445673-0F28-2AA3-A2D2-A28A9204F286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A048E37-AEC1-510C-B0FD-45801FDBF156" name="Exam_Result_Exam_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>A59BAF5B-02D0-8109-3ECA-166073F8B0C0</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BB8A60-59F6-1054-3772-478AC21C527C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

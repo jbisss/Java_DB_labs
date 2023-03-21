@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6B4F11C-4353-CBDF-D95B-C8213642B2D5" name="Parent_Information">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>032726C0-2740-7CC8-BA2E-0E449E347F8D</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="210CF54A-A5A7-14A4-F21E-36CE8055FA0B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>F64D6A92-321E-50A7-4AF9-141E63D1773F</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_1_First_Name" id="F893E278-569D-F7FC-B1E7-ED4558CD6070">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>5497796D-8378-F0E5-9EC9-B1C507788DBD</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_1_Last_Name" id="3B48DA04-0875-E803-544B-E3B52DCCBC37">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>8E3DBC7F-4348-F3C3-56D6-0235799F48E8</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_2_First_Name" id="715BF1DC-F4E8-8B9A-45B3-7DEF1984A81B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>015914EA-9214-2392-5665-E1E9EC706408</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_2_Last_Name" id="A1FFB075-4AEB-283E-8D45-270467C6B94E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>E9C47EAA-85AC-C5AA-B521-2218B8856466</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54FD3CA0-7121-1DDF-860F-090EB31499A1" name="Parent_Information_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>67B388CD-03B2-E35D-945D-5BFABA3CDF1D</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210CF54A-A5A7-14A4-F21E-36CE8055FA0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

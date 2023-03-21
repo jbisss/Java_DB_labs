@@ -16,5 +16,6 @@ public class Student {
     public static void main(String[] args) {
         ArrayList<String> studentNames = new ArrayList<>();
         addStudents(studentNames);
+        displayStudents(studentNames);
     }
 }

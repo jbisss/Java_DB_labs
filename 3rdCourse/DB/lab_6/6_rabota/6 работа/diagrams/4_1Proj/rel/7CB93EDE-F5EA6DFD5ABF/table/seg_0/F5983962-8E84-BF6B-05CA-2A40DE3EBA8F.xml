@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5983962-8E84-BF6B-05CA-2A40DE3EBA8F" name="SALES_REPRESENTATIVE">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>984CA3A7-315E-8363-7ABB-C2C2B2499FAE</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>SRE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="53C91A94-47C5-960E-0122-F8FF2C45469E">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>E0644552-409B-5D58-56EC-7212998C44B9</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="0006ECAC-32E3-0E28-53C0-A926910BDD15">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>BA4E9394-9282-9DD4-34FA-66E316A2E6FA</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="EFA916EB-DAC5-A991-A2C6-A81696A45009">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>21EF98FC-B5FC-DD23-E169-E254C7562DC5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="C6AA7B6D-F695-0753-D119-FBF07C07C3AB">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>E347AAC4-CC02-5E6C-E2AD-1E4678323B46</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="97F9F251-1D62-1E2A-852B-FB2D9D689E29">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>4A683563-00B1-C2A0-CEC3-2AD90690EEFF</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commission_rate" id="A1E4E519-7C0E-E5B1-3AC9-7E5074C58735">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>75DC9615-12B1-9DBD-FDF2-A81122FD107A</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_REPRESENTATIVE_ID" id="426B904F-9AC2-DC21-4EFE-A3A98A85F54C">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>7462E5A1-195B-2F5A-DA6B-8AAAD01247F2</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="884F506E-8DDE-4F82-598D-30A7EA600A84" referredColumn="53C91A94-47C5-960E-0122-F8FF2C45469E"/>
+</associations>
+</Column>
+<Column name="SAS_ID" id="FB7F9A6C-3FB1-C879-4C11-34616F581439">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E8FCBF9-37EE-D5F6-4C49-270954B4230C" referredColumn="A2C3C032-CB1B-A62F-BB65-16F30084A0E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DDA90E1-DF1F-4412-E80C-5938BD9BC6AE" name="SALES_REPRESENTATIVE_PK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>08678ADD-2B42-D195-ECB5-ABF7C21FB6E3</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C91A94-47C5-960E-0122-F8FF2C45469E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09057762-5F88-B6B9-752C-63145186EB58" name="SALES_REPRESENTATIVE_Email_UN">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>DB80BAD6-2A8D-6B7C-194F-674659BD8BB8</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0006ECAC-32E3-0E28-53C0-A926910BDD15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51E16ECF-6314-BD44-1A19-077DEC93F211" name="SALES_REPRESENTATIVE__IDX">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3DED319-5BB8-E900-9D57-CBFC1D4DBE77</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FB7F9A6C-3FB1-C879-4C11-34616F581439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F37EEE06-6AA1-437F-6B32-23F6D4B40ECC" name="SRE_SAS_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>A3DED319-5BB8-E900-9D57-CBFC1D4DBE77</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7F9A6C-3FB1-C879-4C11-34616F581439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="292008A5-93C8-38C7-E593-8D469D137B31" name="SRE_SRE_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>9D0AA4B9-7F3F-C0D3-5E30-CA99C927AF1B</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="426B904F-9AC2-DC21-4EFE-A3A98A85F54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

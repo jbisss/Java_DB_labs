@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C545A960-3F0C-7024-AC89-2457742B5197" containerWithKeyObject="1ACBB589-E065-0312-5355-32376979894F" localFKIndex="7F61B80D-2CCB-C69C-0F8D-BBD02D47A7E0" name="ITEM_INVENTORY_LIST_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>8B2D16F2-9ECB-0DA9-8341-5897D155D21E</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<referredTableLongName>INVENTORY_LIST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9FAE56C-CC60-783D-297E-DE9AEC1579B7</referredTableID>
+<keyObject>A5CDAC30-6A0B-BE50-154E-40ED190B18D1</keyObject>
+<referredKeyID>A5CDAC30-6A0B-BE50-154E-40ED190B18D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

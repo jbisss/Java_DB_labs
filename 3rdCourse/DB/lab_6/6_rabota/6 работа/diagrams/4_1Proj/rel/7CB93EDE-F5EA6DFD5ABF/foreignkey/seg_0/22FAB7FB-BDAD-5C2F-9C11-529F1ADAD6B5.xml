@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22FAB7FB-BDAD-5C2F-9C11-529F1ADAD6B5" containerWithKeyObject="B193F601-8F95-DEA6-BE95-4EAACBFADA4D" localFKIndex="32C15B26-57D5-AC75-7746-5DA18EAB8F31" name="SAS_SRE_FK">
+<createdBy>Lenovo</createdBy>
+<createdTime>2020-03-19 12:01:57 UTC</createdTime>
+<generatorID>A3DED319-5BB8-E900-9D57-CBFC1D4DBE77</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<referredTableLongName>SALES_REPRESENTATIVE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5983962-8E84-BF6B-05CA-2A40DE3EBA8F</referredTableID>
+<keyObject>2DDA90E1-DF1F-4412-E80C-5938BD9BC6AE</keyObject>
+<referredKeyID>2DDA90E1-DF1F-4412-E80C-5938BD9BC6AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

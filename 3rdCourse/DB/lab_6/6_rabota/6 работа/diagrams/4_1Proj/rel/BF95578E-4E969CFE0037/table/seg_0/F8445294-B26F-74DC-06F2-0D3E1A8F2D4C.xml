@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8445294-B26F-74DC-06F2-0D3E1A8F2D4C" name="SALES_REPRESENTATIVE_ADDRESS">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>4ED2F334-EA89-DE66-53B7-08EBE9C868EC</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>SAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="City" id="72D0378D-BCC0-8EC6-AA3B-655315C07976">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>6AD50DCF-BB71-E628-9B92-FB37D69B0754</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_line_1" id="8FA9D6FB-54E3-EDCB-E8E1-A2293D8F5A9B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>E9C237FE-A8D6-1295-EE43-B98E0796AC2A</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_line_2" id="62836408-5740-CB89-20C8-69370FE66F1C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>F3FD7C8F-CA50-1F1B-3301-DD543EC710CD</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postal_code" id="653517BC-D3BD-A947-5081-63BA5BD4AC0D">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>087F2F25-D887-1CCD-3EC7-9CEE28F05605</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="319EAFD1-624B-43F0-03D6-DCB449BC8615">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>0DE3EF01-2D26-49D2-907D-7BEE8E2D1DF3</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95C5DAE0-E9F7-5250-407A-B59A84BDE7BF" referredColumn="062B77CE-C19B-D6A2-C7C3-26052658CF73"/>
+</associations>
+</Column>
+<Column name="SAS_ID" id="FA6CAE3E-F4FC-E054-FF44-3942B2ED0037">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6772CE9-AD13-EE61-0E32-A16C64DB093F" name="SAS_SRE_ID_UN">
+<createdBy>User</createdBy>
+<createdTime>2022-03-22 18:13:50 UTC</createdTime>
+<generatorID>97A6C6F9-247B-126D-0A7F-CB8ECBF98AFB</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319EAFD1-624B-43F0-03D6-DCB449BC8615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA4CAA9D-830B-D04A-5A00-21A213E4D002" name="SAS_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FA6CAE3E-F4FC-E054-FF44-3942B2ED0037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6202121E-4B92-0D26-B5EA-FE789686F78A" name="SAS__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3DED319-5BB8-E900-9D57-CBFC1D4DBE77</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="319EAFD1-624B-43F0-03D6-DCB449BC8615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63755D9D-BD2A-ACAA-416F-A05F83D145AF" name="SAS_SRE_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:22:28 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319EAFD1-624B-43F0-03D6-DCB449BC8615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

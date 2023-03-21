@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DB84167-5172-774F-6638-F577339E4A76" name="TEAM">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>9E93A68E-0213-C702-3356-3AB8451442E4</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>TEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AEE3693E-3448-3C5C-39AA-FD7E45E0CA39">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>92D4D7CB-F769-103B-6D5E-8D3C28A48357</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="F8B5CF3B-F419-BABC-985E-C5136635238A">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>86BE8EE1-64AF-6110-A596-0A20D876BA74</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_players" id="39FE2942-63F3-13A9-A5E5-53EADFD514AA">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>C08525A0-3085-E29E-D1E2-A6032BE350BB</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Discount" id="03747321-F269-1146-86F6-46CFCDAE9D52">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>692A7EC4-5A80-57B5-3FB1-E40262D96113</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_CTR_Number" id="EC55C01E-C3ED-AD39-8ECC-6FCABA4660F9">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:17:21 UTC</createdTime>
+<generatorID>73885D0C-3A86-3DCB-CB7A-B28928593179</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1028BFB7-F9E2-CCA7-B8BE-5979ADFA20CE" referredColumn="D828C9D1-B98B-1BA0-7A44-B91CE12AAF8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70EFEDF6-99B3-6E10-1764-666607AEF397" name="TEAM_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>B00C697E-F6A4-965D-8B14-C8D016CEAA50</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE3693E-3448-3C5C-39AA-FD7E45E0CA39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BF0AE8E-0AFD-83D2-93BB-5B088DF51935" name="TEAM__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:17:21 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>914708B5-FBC5-10BD-A8DB-3E35FE1A31D3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC55C01E-C3ED-AD39-8ECC-6FCABA4660F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC2E5D07-248B-8183-F383-9743070CDBE4" name="TEAM_CUSTOMER_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:17:21 UTC</createdTime>
+<generatorID>914708B5-FBC5-10BD-A8DB-3E35FE1A31D3</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC55C01E-C3ED-AD39-8ECC-6FCABA4660F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

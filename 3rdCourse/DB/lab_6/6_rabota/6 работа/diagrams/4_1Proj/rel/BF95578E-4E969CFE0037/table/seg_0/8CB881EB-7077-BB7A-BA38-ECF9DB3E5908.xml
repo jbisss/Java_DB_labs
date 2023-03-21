@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CB881EB-7077-BB7A-BA38-ECF9DB3E5908" name="SALES_REPRESENTATIVE">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>984CA3A7-315E-8363-7ABB-C2C2B2499FAE</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<abbreviation>SRE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="062B77CE-C19B-D6A2-C7C3-26052658CF73">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>E0644552-409B-5D58-56EC-7212998C44B9</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="425C2897-97CF-76DF-1FDB-AE16441E4014">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>BA4E9394-9282-9DD4-34FA-66E316A2E6FA</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="4B6488AB-B2BD-A1AE-A618-E9EF3C6A80CD">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>21EF98FC-B5FC-DD23-E169-E254C7562DC5</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="FCE995AB-CACE-67A1-FFCC-E70A2B9566F4">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>E347AAC4-CC02-5E6C-E2AD-1E4678323B46</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="0BAC433B-BE6C-0A57-F646-C77EA339EBDA">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>4A683563-00B1-C2A0-CEC3-2AD90690EEFF</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commission_rate" id="AD986AFB-7A4E-1EC6-C386-C5E1E6AD4FE5">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>75DC9615-12B1-9DBD-FDF2-A81122FD107A</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_REPRESENTATIVE_ID" id="CCCD16D1-C7A8-2DE3-E855-C8CC3D9E7F6C">
+<createdBy>User</createdBy>
+<createdTime>2022-03-22 18:20:10 UTC</createdTime>
+<generatorID>7462E5A1-195B-2F5A-DA6B-8AAAD01247F2</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRE_ADDRESS_SAS_ID" id="B5D00FE4-3094-FA62-9FCD-940623172723">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FA91062-411E-BF94-ADDE-30407D3FA2B9" referredColumn="FA6CAE3E-F4FC-E054-FF44-3942B2ED0037"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="314EA0BD-0214-E360-F271-32344A7EF373" name="SALES_REPRESENTATIVE_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>08678ADD-2B42-D195-ECB5-ABF7C21FB6E3</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062B77CE-C19B-D6A2-C7C3-26052658CF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF917A5-6C1B-D093-842D-3E1D9E1A7CBB" name="SALES_REPRESENTATIVE_Email_UN">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<generatorID>DB80BAD6-2A8D-6B7C-194F-674659BD8BB8</generatorID>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="425C2897-97CF-76DF-1FDB-AE16441E4014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36EA40A3-BFBB-75CC-FBEE-626D62942BB5" name="SALES_REPRESENTATIVE__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:16:42 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3DED319-5BB8-E900-9D57-CBFC1D4DBE77</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5D00FE4-3094-FA62-9FCD-940623172723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFC0D43A-C874-350B-5CEB-E9F2A9628638" name="SRE_SAS_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-17 17:24:26 UTC</createdTime>
+<ownerDesignName>4_1Proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D00FE4-3094-FA62-9FCD-940623172723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE43E8F8-DC9A-91B2-B9E1-A77B9B73EB7E" name="Exam">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:44:28 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1D954355-B57D-91D3-E4A2-4D39574F0956">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:44:35 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="EC9BB141-9B64-F6B0-005C-35F2F47D15DF">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:25:01 UTC</createdTime>
+<generatorID>12FD1A04-FD95-4554-9375-647432B02ED5</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>91398242-DD4C-832C-59E8-CCE35518AF20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="143AC432-0B65-59C2-045E-662ACA5B03F6">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 08:36:23 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1434B68D-BB7D-1606-8296-3EA154D181BD" name="Exam PK">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:44:39 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D954355-B57D-91D3-E4A2-4D39574F0956</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

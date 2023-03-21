@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54ACA946-FBBD-9DE7-1999-405D24E41B00" name="Course">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:37:45 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="91398242-DD4C-832C-59E8-CCE35518AF20">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:37:53 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="7201B727-03E4-5E76-0397-0E23BDCCAB05">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:37:53 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="AA8FF4F3-5747-4D11-70C5-3D6E7EA2709E">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:24:30 UTC</createdTime>
+<generatorID>0F36F64B-AE73-5C60-EA66-C33DFC2D035A</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>46C4657B-D39E-F21D-AFC7-009B4D821A91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Logon ID" id="5F4357BC-E6FF-23B1-9439-497107E94963">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:30 UTC</createdTime>
+<generatorID>B935E63C-7EC3-F7D2-CA46-D13A2D638410</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>4579A356-564F-9C5A-77B1-6C48098F4758</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building" id="226CB08C-086B-B184-7EA0-CB914D44F80B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:46 UTC</createdTime>
+<generatorID>C9A0F308-DDD6-A320-7C19-68FE437487EA</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>A3B0C938-0CF6-AFBC-83DF-CFED4B18A439</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room" id="2D3C4D9B-6103-C4F1-8EE8-9D4BCEE3A0E1">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:46 UTC</createdTime>
+<generatorID>C9A0F308-DDD6-A320-7C19-68FE437487EA</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>B8FE60A4-EE3A-05A4-2EEE-A13F8272417E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date/Time" id="4D02BD2F-67FE-1B64-A492-F787C04AA200">
+<createdBy>User</createdBy>
+<createdTime>2022-03-14 16:26:46 UTC</createdTime>
+<generatorID>C9A0F308-DDD6-A320-7C19-68FE437487EA</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>BE623206-DD1D-D5CF-9828-FA1E995C0C95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1ABB373D-ABEC-D1E5-B97E-9D7789DF192B">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 11:52:18 UTC</createdTime>
+<generatorID>0AB6DEE9-C500-DBE0-ADBD-D9BE0FAD8FDA</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="true"/>
+</engineerTo>
+<referedAttribute>67E35A9D-5607-24D4-0D21-557323FEACAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BE6AA0E-8070-1E7B-FBD4-4255762FDFA4" name="Course PK">
+<createdBy>User</createdBy>
+<createdTime>2022-02-25 11:37:57 UTC</createdTime>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="819CDA61-46AA-4D55-114A-414AD32AC9C1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91398242-DD4C-832C-59E8-CCE35518AF20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AAF8AC8-A57F-5281-E9DD-3C26671ABB17" containerWithKeyObject="EB45EA1E-6426-0ADB-4C02-1D25A6DFBED2" localFKIndex="F1FBD644-CA3C-E09D-656A-4BC0D9C6B83D" name="Course_Online_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-03-16 12:30:02 UTC</createdTime>
+<generatorID>B935E63C-7EC3-F7D2-CA46-D13A2D638410</generatorID>
+<ownerDesignName>4_1Prac</ownerDesignName>
+<referredTableLongName>Online</referredTableLongName>
+<arc>30D759D5-4450-5D58-C32F-CE0A8A3E0338</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DB9F041-7239-E198-AE27-3566B875132A</referredTableID>
+<keyObject>C3152861-85EC-2090-DC69-0B394B6D87C5</keyObject>
+<referredKeyID>C3152861-85EC-2090-DC69-0B394B6D87C5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Logon_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
