@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2080E836-DC14-9120-C2D6-F6765618452B" name="PAT_TME">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>D6E797AD-DCF8-953C-D021-EB3377247B53</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A10E3273-6C93-539E-BFF7-4E7A8D8A45C6">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>7A126BBB-6EE6-F3EF-A4F7-8F5B9BB224E7</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F245CA6A-1F60-D488-59BA-F4DD5864E552" referredColumn="1506CE15-FAC9-F1C7-48D8-8749876EB6B0"/>
+</associations>
+</Column>
+<Column name="Hourly_RAT" id="5DB5099C-2371-7042-DF64-7D0598D16295">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>0F4C8351-7EB2-A972-ACFF-10BC60402F49</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9DC6FBD-2915-AA57-6CBA-E53E6D8BF969" name="PAT_TME_PK">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>4C3A8784-D939-EB89-BE76-E553BB0C7EF8</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A10E3273-6C93-539E-BFF7-4E7A8D8A45C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A6A46B3-90F8-3F03-FDA3-E903D369F971" name="PAT_TME_fclt_FK">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>8019154D-E323-F643-8498-017D565D025F</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A10E3273-6C93-539E-BFF7-4E7A8D8A45C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

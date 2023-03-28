@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B1B5C8-87FE-D061-2BAA-D61377DAD88E" name="FUL_TME">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>B4B9ABE9-0BC1-6882-BC08-EBE9AC731138</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6B497DC5-2AE0-E62F-C2F8-300B77155B58">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>7A126BBB-6EE6-F3EF-A4F7-8F5B9BB224E7</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDEA0681-F7F3-4E2D-EA08-5E95FA6FECC8" referredColumn="1506CE15-FAC9-F1C7-48D8-8749876EB6B0"/>
+</associations>
+</Column>
+<Column name="SLY" id="B0E7962D-136E-BF96-BC81-A82341FBCF41">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>9A04B58C-D42E-D5F6-0D33-E796C44788BA</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISU_PLA" id="44474EC1-9435-47F7-9245-92C972A5FAB8">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>7A8BCBDE-36ED-C306-F7E6-3E5B63104244</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7CCF831-BBF8-F014-F4D8-EA8944A2B3D2" name="FUL_TME_PK">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>4C3A8784-D939-EB89-BE76-E553BB0C7EF8</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B497DC5-2AE0-E62F-C2F8-300B77155B58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE12CD7C-5462-732A-39FD-DE68396767AE" name="FUL_TME_fclt_FK">
+<createdBy>pozol</createdBy>
+<createdTime>2023-03-27 09:49:57 UTC</createdTime>
+<generatorID>B064046A-3248-43CF-443C-521D46C8B878</generatorID>
+<ownerDesignName>5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B497DC5-2AE0-E62F-C2F8-300B77155B58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
