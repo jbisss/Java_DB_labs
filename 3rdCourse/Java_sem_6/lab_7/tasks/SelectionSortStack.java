@@ -43,5 +43,6 @@ public class SelectionSortStack {
         printStack(stack);
         sortStack(stack);
         printStack(stack);
+        System.out.println(stack.peek());
     }
 }
