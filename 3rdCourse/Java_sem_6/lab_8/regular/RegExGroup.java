@@ -16,17 +16,18 @@ public class RegExGroup {
         System.out.println("US style date - " + date);
         in.close();
 
-        Scanner in2 = new Scanner(System.in);
+        /*Scanner in2 = new Scanner(System.in);
         String date2;
         Pattern dateP2 = Pattern.compile("([0-9]{2})/([0-9]{2})/([0-9]{4})");
         date2 = getDate_2(in2, dateP2);
         System.out.println("US style date - " + date2);
-        in2.close();
+        in2.close();*/
     }
 
     private static String getDate(Scanner in, Pattern dateP) {
         String date;
         Matcher dateM;
+        boolean flag = false;
         do {
             System.out.println("Enter a Date (dd/mm/yyyy): ");
             date = in.nextLine();
@@ -36,8 +37,16 @@ public class RegExGroup {
                 String month = dateM.group(2);
                 String year = dateM.group(3);
                 date = month + "/" + day + "/" + year;
+                System.out.println(month);
+                System.out.println(day);
+                System.out.println(year);
+                if(Integer.parseInt(month) < 13 && Integer.parseInt(day) < 31) {
+                    flag = true;
+                } else {
+                    System.out.println("Enter 1 more time");
+                }
             }
-        } while (!dateM.matches());
+        } while (!dateM.matches() || flag == false);
         return date;
     }
 
