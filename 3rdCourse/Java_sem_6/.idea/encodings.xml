@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lab_10/glava_18/FileChooserDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lab_10/glava_18/FileInputOutputDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lab_10/glava_18/FileReaderWriterDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lab_10/glava_18/GetFileInfoDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lab_10/glava_18/GetMoneyDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lab_10/practice_5_1/Ex1.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/lab_5/JavaBank/JavaBank.jar/JavaBank/JavaBank.java" charset="windows-1251" />
   </component>
 </project>
