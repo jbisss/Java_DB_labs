@@ -13,7 +13,7 @@ public abstract class Product implements Item,Comparable<Product> {
 	private String manufacturer=Item.manufacturer; 
 	private Date manufacturedOn; 
 	private String name;
-public static int currentProductionNumber = 0;
+	public static int currentProductionNumber = 0;
 	
 	public void setProductionNumber(int productionNumber) {
 		this.serialNumber=productionNumber;
