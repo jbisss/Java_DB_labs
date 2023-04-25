@@ -12,7 +12,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.util.Objects;
 
 public class Main extends Application {
 	 int cat1Score=0;
@@ -86,13 +85,13 @@ public class Main extends Application {
 		});
 		rstBtn.setDisable(true);
 		//add image
-		File file_1 = new File("Java_Duke.png");
+		File file_1 = new File(".\\lab_11\\votingapplication\\src\\application\\Java_Duke.png");
 		Image jImage = new Image(file_1.toURI().toString());
 		ImageView jImgView = new ImageView(jImage);
 		jImgView.setX(10);
 		jImgView.setY(30);
 
-		File file_2 = new File("Datagirl.png");
+		File file_2 = new File(".\\lab_11\\votingapplication\\src\\application\\Datagirl.png");
 		Image sqlImage = new Image(file_2.toURI().toString());
 		ImageView sqlImgView = new ImageView(sqlImage);
 		sqlImgView.setX(320);
