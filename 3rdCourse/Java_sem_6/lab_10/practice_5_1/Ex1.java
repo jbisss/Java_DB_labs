@@ -7,7 +7,6 @@ import java.nio.file.Path;
 public class Ex1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		FileSystem fs = FileSystems.getDefault();
 		Path path = fs.getPath(".\\files\\NIO2\\demoFile.txt"); //задаём путь
 		System.out.println(path); //выводим путь
