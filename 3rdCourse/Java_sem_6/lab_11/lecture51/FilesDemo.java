@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 
 public class FilesDemo {
     public static void main(String[] args) throws IOException {
-        Path dirPath = Paths.get(".\\");
+        Path dirPath = Paths.get(".\\files");
         Path usersfilePath = Paths.get("Highscores.txt");
         Path settingsfilePath = Paths.get("Settings.txt");
 

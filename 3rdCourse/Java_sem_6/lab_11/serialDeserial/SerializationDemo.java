@@ -7,11 +7,10 @@ import java.nio.file.Paths;
 public class SerializationDemo {
     public static void main(String[] args) {
         Course course = new Course("Java Programming", "Oracle", "JP", 60);
-        Path path = Paths.get("C:/JavaProgramming/details.ser");
+        Path path = Paths.get(".\\files\\details.ser");
         serializeData(course, path);
         Course savedCourse = deSerializeData(path);
-        if(course!=null)
-            displayData(savedCourse);
+        if(savedCourse != null) displayData(savedCourse);
     }
 
     static void serializeData(Course course,Path path){
@@ -19,10 +18,9 @@ public class SerializationDemo {
             ObjectOutputStream objOut = new ObjectOutputStream(fileOut))
         {
             objOut.writeObject(course);
-            System.out.println("Serialized data is saved in " + path.toString());
+            System.out.println("Serialized data is saved in " + path);
         }
-        catch(IOException e)
-        {
+        catch(IOException e) {
             e.printStackTrace();
         }
     }

@@ -1,10 +1,11 @@
 package oraclProd.src.oraclProd;
 
+import java.io.Serializable;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class EmployeeInfo {
+public class EmployeeInfo implements Serializable {
 	StringBuilder name = new StringBuilder();
 	  String code;
 	  String deptId;
@@ -29,7 +30,13 @@ public class EmployeeInfo {
 	    return input2;
 	  }
 
-	  private void setDeptId() {
+	public EmployeeInfo(StringBuilder name, String code, String deptId) {
+		this.name = name;
+		this.code = code;
+		this.deptId = deptId;
+	}
+
+	private void setDeptId() {
 	    String inputId = getDeptId();
 	    if (validId(inputId)) {
 	      deptId = reverseString(inputId);
@@ -96,22 +103,19 @@ public class EmployeeInfo {
 	  }
 
 	  public EmployeeInfo() {
-	    in = new Scanner(System.in);
-
-	    setName();
-	    checkName(name);
-	    createEmployeeCode(name);
-	    String patternString = "([A-Z])[a-z][a-z][a-z]\\d\\d";
-	    p = Pattern.compile(patternString);
-	    setDeptId();
-	    in.close();
-
-
+		  in = new Scanner(System.in);
+		  setName();
+		  checkName(name);
+		  createEmployeeCode(name);
+		  String patternString = "([A-Z])[a-z][a-z][a-z]";
+		  p = Pattern.compile(patternString);
+		  setDeptId();
+		  in.close();
 	  }
 
 	  @Override
 	  public String toString() {
-	    return "Employee Code : " + code + "\n" +
+	    return "Employee name " + this.name.toString() + "\nCode : " + code +
 	        "\nDepartment Number : " + deptId;
 	  }
 }

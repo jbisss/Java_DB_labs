@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 public class FilesCopyDemo {
     public static void main(String[] args) {
-//create path variables
+        //create path variables
         Path p = Paths.get(".\\");
         Path p1 = Paths.get("scores");
         Path p2 = Paths.get("backup");

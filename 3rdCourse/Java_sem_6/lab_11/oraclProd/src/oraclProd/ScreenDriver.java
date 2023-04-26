@@ -3,6 +3,6 @@ package oraclProd.src.oraclProd;
 public class ScreenDriver {
 	public void screenTest() {
 		Screen sc1=new Screen("600x400",40,22);
-		sc1.toString();
+		System.out.println(sc1);
 	}
 }
