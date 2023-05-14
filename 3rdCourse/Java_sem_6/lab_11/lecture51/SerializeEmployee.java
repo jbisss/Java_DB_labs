@@ -1,21 +1,47 @@
 package lecture51;
 
-import oraclProd.src.oraclProd.EmployeeInfo;
-
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import java.util.Scanner;
 
 
 public class SerializeEmployee {
     public static void main(String[] args) {
-        Employee emp = new Employee();
-        Path path = Paths.get(".\\files\\emp.ser");
-        serializeData(emp, path);
-        deSerializeData(path);
-        displayData(emp);
+        while(true){
+            Path path = Paths.get(".\\files\\emp.ser");
+            System.out.println("Choose se-1 or de-2:");
+            Scanner in = new Scanner(System.in);
+            int code = in.nextInt();
+            if(code == 1) {
+                Employee emp = new Employee();
+                System.out.println("Enter where to serialize: ");
+                Scanner inIn = new Scanner(System.in);
+                String path23 = inIn.nextLine();
+                Path pathWhere = Paths.get(path23);
+                File file_1 = new File(pathWhere.toUri());
+                if(file_1.exists()) {
+                    serializeData(emp, pathWhere);
+                    System.out.println("Success!");
+                }
+            } else {
+                System.out.println("Enter from where to read: ");
+                Scanner inIn = new Scanner(System.in);
+                String path23 = inIn.nextLine();
+                Path pathFrom = Paths.get(path23);
+                File file_2 = new File(pathFrom.toUri());
+                if(file_2.exists()) {
+                    Employee empEmp = deSerializeData(pathFrom);
+                    assert empEmp != null;
+                    if(Employee.version != empEmp.getVersionThis()) {
+                        System.out.println("Invalid version of a class!");
+                    } else {
+                        System.out.println("Good version of a class!");
+                        displayData(empEmp);
+                    }
+                }
+            }
+        }
     }
     static void serializeData(Employee emp, Path path){
         try(FileOutputStream fileOut = new FileOutputStream(path.toString());

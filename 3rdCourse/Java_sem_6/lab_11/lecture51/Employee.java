@@ -4,12 +4,20 @@ import java.io.Serializable;
 import java.util.Scanner;
 
 public class Employee implements Serializable {
+
+    public static int version = 2;
+    private int versionThis;
     private String name;
     private String userName;
     private String email;
     private String password;
 
+    public int getVersionThis() {
+        return versionThis;
+    }
+
     public Employee() {
+        versionThis = version;
         name = setName();
         userName = setUserName(name);
         email = setEmail(userName);
@@ -73,6 +81,6 @@ public class Employee implements Serializable {
     @Override
     public String toString() {
         return "Employee details\n" + "Name: " + this.name + "\nUsername: " + this.userName + "\nEmail: " + this.email +
-                "\nInitial password: " + this.password;
+                "\nInitial password: " + this.password + "\nObject: " + this.hashCode();
     }
 }
