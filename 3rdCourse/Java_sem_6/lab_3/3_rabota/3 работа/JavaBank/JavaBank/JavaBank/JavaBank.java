@@ -1,9 +1,5 @@
 package JavaBank;
 
-import JavaBankOld.AbstractBankAccount;
-import JavaBankOld.Account;
-import JavaBankOld.CompanyColor;
-import JavaBankOld.MyException;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -25,7 +21,7 @@ public class JavaBank extends JFrame {
     public int Accountnum;
     public int Balance;
 
-    JavaBankOld.CompanyColor companyColor = new CompanyColor();
+      CompanyColor companyColor = new CompanyColor();
     private Color myColor = new Color(companyColor.getR(),companyColor.getG(),companyColor.getB());
 
     // JPanel for user inputs
@@ -78,7 +74,7 @@ public class JavaBank extends JFrame {
 
     // two-dimensional array to store Account details
 
-    static JavaBankOld.AbstractBankAccount myAccounts[]  = new JavaBankOld.AbstractBankAccount[MaxAccounts];
+    static   AbstractBankAccount myAccounts[]  = new   AbstractBankAccount[MaxAccounts];
 
     static int noAccounts = 0;
 
@@ -303,7 +299,7 @@ public class JavaBank extends JFrame {
             }
         }
         catch(Exception e){
-            JavaBankOld.MyException newExc = new JavaBankOld.MyException("An unhandled error occurred!!!");
+              MyException newExc = new   MyException("An unhandled error occurred!!!");
             JOptionPane.showMessageDialog(null, newExc);
         }
         finally {
@@ -395,7 +391,7 @@ public class JavaBank extends JFrame {
             JOptionPane.showMessageDialog(null, "Incorrect numeric value entered.");
         }
         catch(Exception e){
-            JavaBankOld.MyException newExc = new MyException("An unhandled error occurred!!!");
+              MyException newExc = new MyException("An unhandled error occurred!!!");
             JOptionPane.showMessageDialog(null, newExc);
         }//
 //end catch
@@ -440,7 +436,7 @@ public class JavaBank extends JFrame {
         // Populate arrays with the word EMPTY
         // so we can check to see if the values are empty later
 
-        JavaBankOld.JavaBank application = new JavaBankOld.JavaBank();
+          JavaBank application = new   JavaBank();
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 

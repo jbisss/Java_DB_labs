@@ -1,6 +1,6 @@
 package JavaBank;
 
-import JavaBankOld.AbstractBankAccount;
+import JavaBank.AbstractBankAccount;
 
 public class Account extends AbstractBankAccount {
 
